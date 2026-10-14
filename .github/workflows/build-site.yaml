@@ -39,6 +39,9 @@ jobs:
       - name: Build live version of site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+          # Publish the already-built site without a second Jekyll pass,
+          # which would omit the _styles and _scripts directories.
+          touch _site/.nojekyll
 
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.8.0
