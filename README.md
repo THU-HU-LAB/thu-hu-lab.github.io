@@ -1,6 +1,6 @@
 # THU-HU-LAB Website
 
-网站地址：**[thu-hu-lab.github.io](https://thu-hu-lab.github.io/)**
+网站地址：**[thu-hu-lab.github.io](https://thu-hu-lab.github.io)**
 
 基于 [Greene Lab Website Template](https://github.com/greenelab/lab-website-template) v1.4.0（`cca827d`）。保留上游 BSD-3-Clause 许可证与模板署名。
 
