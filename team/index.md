@@ -13,13 +13,13 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% include portrait.html lookup="huchuxiong" %}
-{% include portrait.html lookup="wangze" %}
-{% include portrait.html lookup="jinzhao" %}
-{% include portrait.html lookup="yanjizhou" %}
-{% include portrait.html lookup="yujichuan" %}
-{% include portrait.html lookup="wangyunan" %}
-{% include portrait.html lookup="zhaoyueyao" %}
+{% include portrait.html lookup="huchuxiong" hide_affiliation=true %}
+{% include portrait.html lookup="wangze" hide_affiliation=true %}
+{% include portrait.html lookup="jinzhao" hide_affiliation=true %}
+{% include portrait.html lookup="yanjizhou" hide_affiliation=true %}
+{% include portrait.html lookup="yujichuan" hide_affiliation=true %}
+{% include portrait.html lookup="wangyunan" hide_affiliation=true %}
+{% include portrait.html lookup="zhaoyueyao" hide_affiliation=true %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 

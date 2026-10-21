@@ -1,6 +1,7 @@
 ---
 name: Chuxiong Hu
 image: images/members/huchuxiong.jpg
+portrait_fit: contain
 role: principal-investigator
 description: Tenured Professor and Ph.D. Supervisor
 affiliation: Department of Mechanical Engineering, Tsinghua University

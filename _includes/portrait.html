@@ -25,6 +25,7 @@
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
+      {% if member.portrait_fit %}style="object-fit: {{ member.portrait_fit }}; object-position: {{ member.portrait_position | default: 'center' }}; {% if member.portrait_padding %}box-sizing: border-box; padding: {{ member.portrait_padding }}; {% endif %}{% if member.portrait_background %}background: {{ member.portrait_background }};{% else %}background-image: url('{{ member.image | relative_url | uri_escape }}'); background-size: cover; background-position: center;{% endif %}"{% endif %}
       alt="member portrait"
       loading="lazy"
       {% include fallback.html %}
@@ -42,7 +43,7 @@
       </span>
     {% endif %}
 
-    {% if member.affiliation %}
+    {% if member.affiliation and include.hide_affiliation != true %}
       <span class="portrait-affiliation">
         {{ member.affiliation }}
       </span>

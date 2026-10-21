@@ -1,11 +1,9 @@
 ---
 ---
 
-# THU-HU-LAB
+# HU-LAB
 
-课题组主页正在建设中。本页暂时保留模板布局，便于确认页面结构和展示效果。
-
-**当前为模板预览：成员、论文、项目、图片与联系方式均为模板示例，不代表 THU-HU-LAB 的真实资料。**
+HU-LAB is a research group led by Professor Chuxiong Hu in the Department of Mechanical Engineering at Tsinghua University. We advance robotics and intelligent manufacturing through research in precision motion control, optimal trajectory planning, safe coordination of multiple robots, robotic perception, and learning for manipulation and assembly. Our work brings together control theory, optimization, machine learning, and mechatronic system design to connect fundamental methods with practical engineering. Working closely with industry, we develop algorithms, software, and robotic systems for semiconductor manufacturing equipment, CNC machining, robotic additive and subtractive manufacturing, automated dispensing and assembly, and intelligent railway maintenance.
 
 {%
   include button.html
