@@ -1,6 +1,6 @@
 ---
 name: Yunan Wang
-image: images/fallback.svg
+image: images/members/wangyunan.png
 role: phd
 description: Ph.D. Student
 affiliation: Department of Mechanical Engineering, Tsinghua University
