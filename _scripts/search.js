@@ -5,13 +5,18 @@
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = ".card, .citation:not([data-search-exclude]), .post-excerpt";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
   const infoBoxSelector = ".search-info";
   // tags element
   const tagSelector = ".tag";
+
+  // A member link carries an exact ORCID filter, independent of author names.
+  const getOrcidFilter = () =>
+    (new URLSearchParams(window.location.search).get("orcid") || "")
+      .trim().toUpperCase();
 
   // split search query into terms, phrases, and tags
   const splitQuery = (query) => {
@@ -48,6 +53,9 @@
 
   // determine if element should show up in results based on query
   const elementMatches = (element, { terms, phrases, tags }) => {
+    const orcid = getOrcidFilter();
+    const orcids = (element.dataset.orcids || "").toUpperCase().split(/\s+/);
+    if (orcid && !orcids.includes(orcid)) return false;
     // tag elements within element
     const tagElements = [...element.querySelectorAll(".tag")];
 
@@ -89,6 +97,18 @@
       } else element.style.display = "none";
     }
 
+    // Hide year headings when none of that year's records match the search.
+    for (const heading of document.querySelectorAll("[data-search-heading]")) {
+      let visible = false;
+      for (let sibling = heading.nextElementSibling; sibling; sibling = sibling.nextElementSibling) {
+        if (sibling.matches("[data-search-heading]")) break;
+        const records = sibling.matches(elementSelector)
+          ? [sibling] : [...sibling.querySelectorAll(elementSelector)];
+        if (records.some((record) => record.style.display !== "none")) visible = true;
+      }
+      heading.style.display = visible ? "" : "none";
+    }
+
     return [x, n, tags];
   };
 
@@ -119,10 +139,11 @@
       const button = box.querySelector("button");
       const icon = box.querySelector("button i");
       input.value = query;
-      icon.className = input.value.length
+      const active = input.value.length > 0 || Boolean(getOrcidFilter());
+      icon.className = active
         ? "icon fa-solid fa-xmark"
         : "icon fa-solid fa-magnifying-glass";
-      button.disabled = input.value.length ? false : true;
+      button.disabled = !active;
     }
   };
 
@@ -130,13 +151,14 @@
   const updateInfoBox = (query, x, n) => {
     const boxes = document.querySelectorAll(infoBoxSelector);
 
-    if (query.trim()) {
+    if (query.trim() || getOrcidFilter()) {
       // show all info boxes
       boxes.forEach((info) => (info.style.display = ""));
 
       // info template
       let info = "";
       info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
+      if (getOrcidFilter()) info += "Filtered by member ORCID<br>";
       info += "<a href='./'>Clear search</a>";
 
       // set info HTML string
@@ -171,10 +193,12 @@
   };
 
   // update url based on query
-  const updateUrl = (query = "") => {
+  const updateUrl = (query = "", clearOrcid = false) => {
     const url = new URL(window.location);
     let params = new URLSearchParams(url.search);
-    params.set("search", query);
+    if (query) params.set("search", query);
+    else params.delete("search");
+    if (clearOrcid) params.delete("orcid");
     url.search = params.toString();
     window.history.replaceState(null, null, url);
   };
@@ -204,8 +228,8 @@
 
   // when user clears search box with button
   window.onSearchClear = () => {
+    updateUrl("", true);
     runSearch();
-    updateUrl();
   };
 
   // after page loads

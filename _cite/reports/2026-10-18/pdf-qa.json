@@ -1,0 +1,86 @@
+[
+  {
+    "file": "arxiv-2309.06835v1.pdf",
+    "pages": 13,
+    "first_page_text_characters": 5862,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2310.07207v1.pdf",
+    "pages": 8,
+    "first_page_text_characters": 6253,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2310.07211v2.pdf",
+    "pages": 13,
+    "first_page_text_characters": 6157,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2311.06769v1.pdf",
+    "pages": 13,
+    "first_page_text_characters": 6071,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2311.07039v4.pdf",
+    "pages": 25,
+    "first_page_text_characters": 4979,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2403.17675v4.pdf",
+    "pages": 20,
+    "first_page_text_characters": 5490,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2404.08943v4.pdf",
+    "pages": 22,
+    "first_page_text_characters": 5646,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2601.16003v3.pdf",
+    "pages": 9,
+    "first_page_text_characters": 5463,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2605.07605v2.pdf",
+    "pages": 9,
+    "first_page_text_characters": 4257,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2605.19089v1.pdf",
+    "pages": 21,
+    "first_page_text_characters": 5719,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2609.23566v1.pdf",
+    "pages": 9,
+    "first_page_text_characters": 4719,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2609.28281v1.pdf",
+    "pages": 8,
+    "first_page_text_characters": 4135,
+    "parseable": true
+  },
+  {
+    "file": "arxiv-2610.20460v1.pdf",
+    "pages": 18,
+    "first_page_text_characters": 5970,
+    "parseable": true
+  },
+  {
+    "file": "euspen-2016-EDSRS.pdf",
+    "pages": 2,
+    "first_page_text_characters": 5204,
+    "parseable": true
+  }
+]

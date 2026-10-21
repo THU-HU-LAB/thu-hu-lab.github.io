@@ -1,4 +1,6 @@
-{% if include.lookup %}
+{% if include.citation %}
+  {% assign citation = include.citation %}
+{% elsif include.lookup %}
   {% assign citation = site.data.citations
     | where_exp: "citation",
       "citation.id == include.lookup or citation.title contains include.lookup"
@@ -8,8 +10,10 @@
   {% assign citation = include %}
 {% endif %}
 
+{% if citation %}
 <div class="citation-container">
-  <div class="citation">
+  {% assign citation_orcids = citation | citation_orcids %}
+  <div class="citation" data-orcids="{{ citation_orcids | join: ' ' | xml_escape }}" {% if include.search_exclude %}data-search-exclude{% endif %}>
     {% if include.style == "rich" %}
       <a
         {% if citation.link %}
@@ -65,7 +69,13 @@
         </span>
         &nbsp;·&nbsp;
         <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+          {%- if citation.date_precision == "year" -%}
+            {{- citation.date | date: "%Y" -}}
+          {%- elsif citation.date_precision == "month" -%}
+            {{- citation.date | date: "%b %Y" -}}
+          {%- else -%}
+            {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+          {%- endif -%}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-id">
@@ -85,6 +95,8 @@
           </div>
         {% endif %}
 
+      {% endif %}
+
         {% if citation.buttons.size > 0 %}
           <div class="citation-buttons">
             {% for button in citation.buttons %}
@@ -103,7 +115,7 @@
         {% if citation.tags.size > 0 or citation.repo %}
           {% include tags.html tags=citation.tags repo=citation.repo %}
         {% endif %}
-      {% endif %}
     </div>
   </div>
 </div>
+{% endif %}

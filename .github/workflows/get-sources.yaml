@@ -19,12 +19,25 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
 
+      # Keep the directory structure even when there are no member files.
+      # Copy data only: no PR scripts are executed during citation generation.
+      - name: Prepare citation inputs
+        run: |
+          python - <<'PY'
+          from os import environ
+          from pathlib import Path
+          from shutil import copyfile
+          for pattern in ("_data/**/*.yaml", "_data/**/*.yml", "_data/**/*.json", "_members/*.md"):
+              for source in Path(".").glob(pattern):
+                  target = Path(environ["RUNNER_TEMP"]) / "citation-inputs" / source
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  copyfile(source, target)
+          PY
+
       # save limited artifact
       - name: Upload sources artifact
         uses: actions/upload-artifact@v7
         with:
           name: sources
-          path: |
-            _data/**/*.yaml
-            _data/**/*.yml
+          path: ${{ runner.temp }}/citation-inputs/
           retention-days: 1

@@ -1,0 +1,126 @@
+[
+  {
+    "filename": "arxiv-2610.20460v1.pdf",
+    "title": "DD-GBP: Anytime Multi-Arm Planning and Continuous Execution via Distributed Dynamic Gaussian Belief Propagation",
+    "url": "https://arxiv.org/pdf/2610.20460v1",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2609.28281v1.pdf",
+    "title": "BrickCraft-Duo: Efficient Dual-Arm Skill Learning and Refinement for Compositional Long-Horizon Assembly",
+    "url": "https://arxiv.org/pdf/2609.28281v1",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2609.23566v1.pdf",
+    "title": "G6D: Geometric Learning-Free RGB-D 6D Pose Solver for Robotic Manipulation",
+    "url": "https://arxiv.org/pdf/2609.23566v1",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2605.19089v1.pdf",
+    "title": "Reachability-Augmented Dual Dynamic Programming for Optimal Path Parameterization",
+    "url": "https://arxiv.org/pdf/2605.19089v1",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2605.07605v2.pdf",
+    "title": "BrickCraft: Visuomotor Skill Composition with Situated Manual Guidance for Long-Horizon Interlocking Brick Assembly",
+    "url": "https://arxiv.org/pdf/2605.07605v2",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2601.16003v3.pdf",
+    "title": "Time-Optimal Switching Surfaces for Triple Integrator under Full Box Constraints",
+    "url": "https://arxiv.org/pdf/2601.16003v3",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2404.08943v4.pdf",
+    "title": "A Novel State-Centric Necessary Condition for Time-Optimal Control of Controllable Linear Systems Based on Augmented Switching Laws (Extended Version)",
+    "url": "https://arxiv.org/pdf/2404.08943v4",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2403.17675v4.pdf",
+    "title": "Chattering Phenomena in Time-Optimal Control for High-Order Chain-of-Integrator Systems with Full State Constraints (Extended Version)",
+    "url": "https://arxiv.org/pdf/2403.17675v4",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2311.07039v4.pdf",
+    "title": "Time-Optimal Control for High-Order Chain-of-Integrators Systems with Full State Constraints and Arbitrary Terminal States (Extended Version)",
+    "url": "https://arxiv.org/pdf/2311.07039v4",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2311.06769v1.pdf",
+    "title": "Learning Predictive Safety Filter via Decomposition of Robust Invariant Set",
+    "url": "https://arxiv.org/pdf/2311.06769v1",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2310.07211v2.pdf",
+    "title": "Bridging the Gap between Newton-Raphson Method and Regularized Policy Iteration",
+    "url": "https://arxiv.org/pdf/2310.07211v2",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2310.07207v1.pdf",
+    "title": "Robust Safe Reinforcement Learning under Adversarial Disturbances",
+    "url": "https://arxiv.org/pdf/2310.07207v1",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "arxiv-2309.06835v1.pdf",
+    "title": "Safe Reinforcement Learning with Dual Robustness",
+    "url": "https://arxiv.org/pdf/2309.06835v1",
+    "version": "arXiv preprint"
+  },
+  {
+    "filename": "euspen-2016-EDSRS.pdf",
+    "title": "A novel electrodynamic suspension reaction sphere (EDSRS) for satellite attitude control",
+    "url": "https://www.euspen.eu/knowledge-base/ICE16-P9.03.pdf",
+    "version": "Conference paper"
+  },
+  {
+    "doi": "10.1002/advs.202305639",
+    "pmcid": "PMC10870059",
+    "title": "Sniffing Like a Wine Taster: Multiple Overlapping Sniffs (MOSS) Strategy Enhances Electronic Nose Odor Recognition Capability.",
+    "url": "https://europepmc.org/articles/PMC10870059?pdf=render",
+    "version": "Open-access publisher/PMC version",
+    "filename": "PMC10870059.pdf"
+  },
+  {
+    "doi": "10.1002/advs.202302479",
+    "pmcid": "PMC10625119",
+    "title": "Printing Three-Dimensional Refractory Metal Patterns in Ambient Air: Toward High Temperature Sensors.",
+    "url": "https://europepmc.org/articles/PMC10625119?pdf=render",
+    "version": "Open-access publisher/PMC version",
+    "filename": "PMC10625119.pdf"
+  },
+  {
+    "doi": "10.1016/j.bioactmat.2023.01.018",
+    "pmcid": "PMC9932583",
+    "title": "<i>In vivo</i> bioprinting: Broadening the therapeutic horizon for tissue injuries.",
+    "url": "https://europepmc.org/articles/PMC9932583?pdf=render",
+    "version": "Open-access publisher/PMC version",
+    "filename": "PMC9932583.pdf"
+  },
+  {
+    "doi": "10.1002/advs.202105499",
+    "pmcid": "PMC9009116",
+    "title": "Laser Direct-Write Sensors on Carbon-Fiber-Reinforced Poly-Ether-Ether-Ketone for Smart Orthopedic Implants.",
+    "url": "https://europepmc.org/articles/PMC9009116?pdf=render",
+    "version": "Open-access publisher/PMC version",
+    "filename": "PMC9009116.pdf"
+  },
+  {
+    "doi": "10.3390/s19102409",
+    "pmcid": "PMC6566451",
+    "title": "Ultraprecision Real-Time Displacements Calculation Algorithm for the Grating Interferometer System.",
+    "url": "https://www.mdpi.com/1424-8220/19/10/2409/pdf?version=1558942986",
+    "version": "Open-access publisher/PMC version",
+    "filename": "PMC6566451.pdf"
+  }
+]

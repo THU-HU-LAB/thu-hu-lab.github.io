@@ -35,12 +35,16 @@ jobs:
           ref: ${{ github.event.repository.default_branch || github.ref_name }}
 
       # safely load limited artifact to input into cite process
+      - name: Clear base-branch member inputs before loading PR snapshot
+        if: github.event.number != ''
+        run: rm -f _members/*.md
+
       - name: Download sources artifact
         if: github.event.number != ''
         uses: actions/download-artifact@v8
         with:
           name: sources
-          path: _data
+          path: .
 
       - name: Set up Python
         uses: actions/setup-python@v7

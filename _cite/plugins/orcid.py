@@ -6,7 +6,7 @@ from manubot.cite.handlers import prefix_to_handler as manubot_citable
 
 def main(entry):
     """
-    receives single list entry from orcid data file
+    receives an ORCID entry from a member profile
     returns list of sources to cite
     """
 
@@ -137,6 +137,7 @@ def main(entry):
 
         # copy fields from entry to source
         source.update(entry)
+        source["orcids"] = [entry["orcid"]]
 
         # add source to list
         sources.append(source)

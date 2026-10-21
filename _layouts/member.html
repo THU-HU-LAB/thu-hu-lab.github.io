@@ -8,9 +8,12 @@ layout: default
 
 <div>
   {% for link in page.links %}
+    {% if link[0] == "orcid" %}{% continue %}{% endif %}
+    {% if link[1] and link[1] != "" %}
     {% assign key = link[0] %}
     {% assign value = link[1] %}
     {% include button.html type=key link=value style="bare" %}<br>
+    {% endif %}
   {% endfor %}
 </div>
 
@@ -20,32 +23,22 @@ layout: default
 
 {{ content }}
 
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
+{% assign member_orcid = page.links.orcid | default: "" | strip | upcase %}
 
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
+<h2>Publications</h2>
 
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
-  </a>
-</p>
-
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
-
-<!--
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
-  </a>
-</p>
--->
+{% if member_orcid != "" %}
+  {% assign member_papers = site.data.citations | citations_for_orcid: member_orcid | sort: "date" | reverse %}
+  {% capture research_link %}/research/?orcid={{ member_orcid }}{% endcapture %}
+  <p class="center">
+    {{ member_papers.size }} associated works ·
+    <a href="{{ research_link | relative_url | xml_escape }}">View on Research</a>
+  </p>
+  {% for paper in member_papers %}
+    {% include citation.html citation=paper %}
+  {% else %}
+    <p>No publications have been associated with this member yet.</p>
+  {% endfor %}
+{% else %}
+  <p>Add an ORCID iD to associate publications with this member.</p>
+{% endif %}

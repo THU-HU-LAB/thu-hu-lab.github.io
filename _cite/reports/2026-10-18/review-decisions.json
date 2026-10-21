@@ -1,0 +1,186 @@
+{
+  "checked_at": "2026-10-18",
+  "rows": {
+    "30": {
+      "approve": true,
+      "note": "Crossref title list contains English and Chinese titles. English title exactly matches the seed; Hu ORCID also matches."
+    },
+    "55": {
+      "approve": true,
+      "doi": "10.1360/SSI-2023-0378",
+      "sources": [
+        "https://me.tsinghua.edu.cn/info/1003/3145.htm"
+      ],
+      "note": "Chinese seed title matches Tsinghua department news; the official news supplies this DOI and the five authors.",
+      "override": {
+        "title": "集成电路装备光刻机发展前沿与未来挑战",
+        "authors": [
+          "胡楚雄",
+          "周冉",
+          "付宏",
+          "张鸣",
+          "朱煜"
+        ]
+      }
+    },
+    "63": {
+      "approve": true,
+      "sources": [
+        "https://qikan.cmes.org/jxgcxb/EN/10.3901/JME.2023.21.099"
+      ],
+      "note": "Crossref omits authors; journal page confirms all six authors, title, volume 59(21), pages 99-109.",
+      "override": {
+        "authors": [
+          "Min Li",
+          "Taotao Chen",
+          "Sen Lu",
+          "Kaiming Yang",
+          "Yu Zhu",
+          "Chuxiong Hu"
+        ],
+        "date": "2023-11-05",
+        "date_precision": "day"
+      }
+    },
+    "97": {
+      "approve": true,
+      "sources": [
+        "https://jst.tsinghuajournals.com/article/2022/4307/20220303.htm"
+      ],
+      "note": "Crossref 404; publisher HTML independently confirms exact English title, seven authors, DOI, 2022 volume 62(3), pages 400-407.",
+      "standalone": {
+        "id": "doi:10.16511/j.cnki.qhdxxb.2022.25.007",
+        "title": "Thermofluid modeling for concurrent size-topology optimization of heat sinks for planar motors",
+        "authors": [
+          "Jiaqi Zhao",
+          "Ming Zhang",
+          "Yu Zhu",
+          "Rong Cheng",
+          "Xin Li",
+          "Leijie Wang",
+          "Chuxiong Hu"
+        ],
+        "publisher": "Journal of Tsinghua University (Science and Technology)",
+        "date": "2022-03-01",
+        "date_precision": "month",
+        "link": "https://jst.tsinghuajournals.com/article/2022/4307/20220303.htm",
+        "type": "paper",
+        "publication_type": "journal",
+        "tags": [
+          "journal"
+        ]
+      }
+    },
+    "116": {
+      "approve": true,
+      "note": "Corrigendum title embeds the full original citation; DOI, authors and original title agree. Imported as correction, not a full research article.",
+      "override": {
+        "publication_type": "correction",
+        "tags": [
+          "correction"
+        ]
+      }
+    },
+    "123": {
+      "approve": true,
+      "doi": "10.1109/wcmeim48965.2019.00161",
+      "note": "Corrected Excel DOI wcme1m (digit 1) to wcmeim (letter i). Exact registry title and seven authors match."
+    },
+    "155": {
+      "approve": true,
+      "sources": [
+        "https://www.euspen.eu/knowledge-base/ICE16-P9.03.pdf"
+      ],
+      "note": "Official 2016 euspen conference PDF confirms exact title, five authors and Tsinghua affiliation. No DOI asserted.",
+      "standalone": {
+        "id": "url:https://www.euspen.eu/knowledge-base/ICE16-P9.03.pdf",
+        "title": "A novel electrodynamic suspension reaction sphere (EDSRS) for satellite attitude control",
+        "authors": [
+          "Yu Zhu",
+          "Anlin Chen",
+          "Ming Zhang",
+          "Kaiming Yang",
+          "Chuxiong Hu"
+        ],
+        "publisher": "16th International Conference of the European Society for Precision Engineering and Nanotechnology (euspen)",
+        "date": "2016-05-01",
+        "date_precision": "month",
+        "link": "https://www.euspen.eu/knowledge-base/ICE16-P9.03.pdf",
+        "type": "paper",
+        "publication_type": "conference",
+        "tags": [
+          "conference"
+        ],
+        "buttons": [
+          {
+            "text": "PDF · euspen",
+            "icon": "fa-solid fa-file-pdf",
+            "link": "https://www.euspen.eu/knowledge-base/ICE16-P9.03.pdf",
+            "tooltip": "Download euspen conference paper PDF"
+          }
+        ]
+      }
+    },
+    "161": {
+      "approve": true,
+      "sources": [
+        "https://qikan.cmes.org/jxgcxb/EN/10.3901/JME.2016.11.042"
+      ],
+      "note": "Crossref only contains first author. Journal page confirms complete five-author list including Hu.",
+      "override": {
+        "authors": [
+          "Tao Huang",
+          "Kaiming Yang",
+          "Jin Yang",
+          "Yu Zhu",
+          "Chuxiong Hu"
+        ]
+      }
+    },
+    "18": {
+      "note": "Official arXiv:2601.16003 is imported as a preprint. Excel conference/EI publication status has not been independently verified; not counted as a verified conference paper."
+    },
+    "19": {
+      "note": "Short COPP conference record, not a full paper. Crossref candidate is unrelated. Excluded pending primary conference evidence."
+    },
+    "164": {
+      "note": "Crossref cannot resolve the supplied Chinese-journal DOI; no exact primary-source match obtained. Retained for follow-up."
+    },
+    "175": {
+      "note": "Old ASPE/conference entry lacks an exact primary publication record. Similar Crossref titles are different papers; not imported."
+    },
+    "176": {
+      "note": "Old ASPE/conference entry lacks an exact primary publication record. Similar Crossref titles are different papers; not imported."
+    },
+    "178": {
+      "note": "Old ASPE/conference entry lacks an exact primary publication record. Similar Crossref titles are different papers; not imported."
+    },
+    "179": {
+      "note": "Old ASPE/conference entry lacks an exact primary publication record. Similar Crossref titles are different papers; not imported."
+    },
+    "181": {
+      "note": "Old ASPE/conference entry lacks an exact primary publication record. Similar Crossref titles are different papers; not imported."
+    },
+    "182": {
+      "note": "Old ASPE/conference entry lacks an exact primary publication record. Similar Crossref titles are different papers; not imported."
+    }
+  },
+  "additional": [
+    {
+      "doi": "10.5772/intechopen.85539",
+      "note": "Additional book chapter; reviewed author names Chuxiong Hu, Yu Zhu and Luzheng Liu. Listed separately from research papers."
+    },
+    {
+      "doi": "10.1007/978-981-95-6825-3_24",
+      "note": "FRSE 2025 proceedings chapter, published online 2026-09-02. Explicit Hu and Wang ORCIDs in registry. Existing Wang ORCID record will merge by DOI."
+    },
+    {
+      "doi": "10.1109/cyber71431.2026.11695559",
+      "note": "Additional IEEE CYBER 2026 proceedings paper; authors Hu and Wang and Tsinghua Mechanical affiliations checked in registry."
+    }
+  ],
+  "arxiv_versions": {
+    "2310.07207": "doi:10.1109/cdc49753.2023.10383375",
+    "2309.06835": "doi:10.1109/tpami.2024.3443916"
+  }
+}

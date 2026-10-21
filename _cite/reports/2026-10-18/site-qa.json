@@ -1,0 +1,38 @@
+{
+  "total": 217,
+  "unique_ids": 217,
+  "types": {
+    "conference": 59,
+    "journal": 147,
+    "correction": 1,
+    "book-chapter": 2,
+    "preprint": 8
+  },
+  "members": {
+    "0000-0002-3504-3065": 217,
+    "0000-0001-5121-2677": 36,
+    "0009-0005-1788-6148": 3
+  },
+  "pages": {
+    "research/": {
+      "status": 200,
+      "rendered_citations": 218,
+      "orcid_link_hidden": true
+    },
+    "members/huchuxiong.html": {
+      "status": 200,
+      "rendered_citations": 217,
+      "orcid_link_hidden": true
+    },
+    "members/wangze.html": {
+      "status": 200,
+      "rendered_citations": 36,
+      "orcid_link_hidden": true
+    },
+    "members/jinzhao.html": {
+      "status": 200,
+      "rendered_citations": 3,
+      "orcid_link_hidden": true
+    }
+  }
+}

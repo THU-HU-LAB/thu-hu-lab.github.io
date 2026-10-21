@@ -1,0 +1,342 @@
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns2="http://arxiv.org/schemas/atom">
+  <ns0:id>https://arxiv.org/api/T7bQ5ofHgmzVNwzph5kuWyV4k3o</ns0:id>
+  <ns0:title>arXiv Query: search_query=au:"Chuxiong Hu"&amp;id_list=&amp;start=0&amp;max_results=100</ns0:title>
+  <ns0:updated>2026-10-18T08:21:42Z</ns0:updated>
+  <ns0:link href="https://arxiv.org/api/query?search_query=au:%22Chuxiong+Hu%22&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml" />
+  <ns1:itemsPerPage>100</ns1:itemsPerPage>
+  <ns1:totalResults>13</ns1:totalResults>
+  <ns1:startIndex>0</ns1:startIndex>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2610.20460v1</ns0:id>
+    <ns0:title>DD-GBP: Anytime Multi-Arm Planning and Continuous Execution via Distributed Dynamic Gaussian Belief Propagation</ns0:title>
+    <ns0:updated>2026-10-14T16:43:32Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2610.20460v1" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2610.20460v1" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2026-10-14T16:43:32Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Zhao Jin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Fengyi Dai</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yuetong Yin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wenjie Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2609.28281v1</ns0:id>
+    <ns0:title>BrickCraft-Duo: Efficient Dual-Arm Skill Learning and Refinement for Compositional Long-Horizon Assembly</ns0:title>
+    <ns0:updated>2026-09-23T15:32:11Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2609.28281v1" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2609.28281v1" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2026-09-23T15:32:11Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Jichuan Yu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhenyu Xiao</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ze Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ruixuan Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Changliu Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2609.23566v1</ns0:id>
+    <ns0:title>G6D: Geometric Learning-Free RGB-D 6D Pose Solver for Robotic Manipulation</ns0:title>
+    <ns0:updated>2026-09-20T11:32:48Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2609.23566v1" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2609.23566v1" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2026-09-20T11:32:48Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Yixuan Liang</ns0:name>
+      <ns2:affiliation>Tsinghua University</ns2:affiliation>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>William Chen</ns0:name>
+      <ns2:affiliation>Sapient Intelligence</ns2:affiliation>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+      <ns2:affiliation>Tsinghua University</ns2:affiliation>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jizhou Yan</ns0:name>
+      <ns2:affiliation>Tsinghua University</ns2:affiliation>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhao Jin</ns0:name>
+      <ns2:affiliation>Tsinghua University</ns2:affiliation>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Changling Liu</ns0:name>
+      <ns2:affiliation>Sapient Intelligence</ns2:affiliation>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+      <ns2:affiliation>Tsinghua University</ns2:affiliation>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2605.19089v1</ns0:id>
+    <ns0:title>Reachability-Augmented Dual Dynamic Programming for Optimal Path Parameterization</ns0:title>
+    <ns0:updated>2026-05-18T20:26:19Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2605.19089v1" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2605.19089v1" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2026-05-18T20:26:19Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jizhou Yan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zeyang Li</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2605.07605v2</ns0:id>
+    <ns0:title>BrickCraft: Visuomotor Skill Composition with Situated Manual Guidance for Long-Horizon Interlocking Brick Assembly</ns0:title>
+    <ns0:updated>2026-10-09T05:25:59Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2605.07605v2" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2605.07605v2" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2026-05-08T11:30:25Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Jichuan Yu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Bowei Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhenran Tang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Guanxing Lu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ruixuan Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Changliu Liu</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2601.16003v3</ns0:id>
+    <ns0:title>Time-Optimal Switching Surfaces for Triple Integrator under Full Box Constraints</ns0:title>
+    <ns0:updated>2026-05-25T22:15:24Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2601.16003v3" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2601.16003v3" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2026-01-22T14:28:37Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhao Jin</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2404.08943v4</ns0:id>
+    <ns0:title>A Novel State-Centric Necessary Condition for Time-Optimal Control of Controllable Linear Systems Based on Augmented Switching Laws (Extended Version)</ns0:title>
+    <ns0:updated>2025-10-24T15:13:13Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2404.08943v4" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2404.08943v4" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2024-04-13T09:36:15Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yujie Lin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zeyang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shize Lin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Suqin He</ns0:name>
+    </ns0:author>
+    <ns2:doi>10.1109/TAC.2025.3618613</ns2:doi>
+    <ns0:link rel="related" href="https://doi.org/10.1109/TAC.2025.3618613" title="doi" />
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2403.17675v4</ns0:id>
+    <ns0:title>Chattering Phenomena in Time-Optimal Control for High-Order Chain-of-Integrator Systems with Full State Constraints (Extended Version)</ns0:title>
+    <ns0:updated>2024-10-17T14:45:42Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2403.17675v4" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2403.17675v4" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2024-03-26T13:02:48Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zeyang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yujie Lin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shize Lin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Suqin He</ns0:name>
+    </ns0:author>
+    <ns2:doi>10.1109/TAC.2025.3538775</ns2:doi>
+    <ns0:link rel="related" href="https://doi.org/10.1109/TAC.2025.3538775" title="doi" />
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2311.07039v4</ns0:id>
+    <ns0:title>Time-Optimal Control for High-Order Chain-of-Integrators Systems with Full State Constraints and Arbitrary Terminal States (Extended Version)</ns0:title>
+    <ns0:updated>2024-03-28T04:24:46Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2311.07039v4" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2311.07039v4" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2023-11-13T02:42:43Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zeyang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shize Lin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Suqin He</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yu Zhu</ns0:name>
+    </ns0:author>
+    <ns2:doi>10.1109/TAC.2024.3455382</ns2:doi>
+    <ns0:link rel="related" href="https://doi.org/10.1109/TAC.2024.3455382" title="doi" />
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2311.06769v1</ns0:id>
+    <ns0:title>Learning Predictive Safety Filter via Decomposition of Robust Invariant Set</ns0:title>
+    <ns0:updated>2023-11-12T08:11:28Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2311.06769v1" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2311.06769v1" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2023-11-12T08:11:28Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Zeyang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Weiye Zhao</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Changliu Liu</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2310.07211v2</ns0:id>
+    <ns0:title>Bridging the Gap between Newton-Raphson Method and Regularized Policy Iteration</ns0:title>
+    <ns0:updated>2026-07-16T03:44:01Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2310.07211v2" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2310.07211v2" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2023-10-11T05:55:20Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Zeyang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Guojian Zhan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jie Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yao Lyu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shengbo Eben Li</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2310.07207v1</ns0:id>
+    <ns0:title>Robust Safe Reinforcement Learning under Adversarial Disturbances</ns0:title>
+    <ns0:updated>2023-10-11T05:34:46Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2310.07207v1" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2310.07207v1" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2023-10-11T05:34:46Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Zeyang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shengbo Eben Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jia Cheng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>http://arxiv.org/abs/2309.06835v1</ns0:id>
+    <ns0:title>Safe Reinforcement Learning with Dual Robustness</ns0:title>
+    <ns0:updated>2023-09-13T09:34:21Z</ns0:updated>
+    <ns0:link href="https://arxiv.org/abs/2309.06835v1" rel="alternate" type="text/html" />
+    <ns0:link href="https://arxiv.org/pdf/2309.06835v1" rel="related" type="application/pdf" title="pdf" />
+    <ns0:published>2023-09-13T09:34:21Z</ns0:published>
+    <ns0:author>
+      <ns0:name>Zeyang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuxiong Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yunan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yujie Yang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shengbo Eben Li</ns0:name>
+    </ns0:author>
+  </ns0:entry>
+</ns0:feed>

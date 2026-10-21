@@ -13,8 +13,13 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+{% include portrait.html lookup="huchuxiong" %}
+{% include portrait.html lookup="wangze" %}
+{% include portrait.html lookup="jinzhao" %}
+{% include portrait.html lookup="yanjizhou" %}
+{% include portrait.html lookup="yujichuan" %}
+{% include portrait.html lookup="wangyunan" %}
+{% include portrait.html lookup="zhaoyueyao" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 

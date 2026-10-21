@@ -6,6 +6,8 @@ import traceback
 from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
+from member_orcids import load_member_orcid
+from citation_members import merge_sources, has_verified_metadata
 from util import *
 
 
@@ -39,10 +41,17 @@ for plugin in plugins:
     log(f"Running {plugin.stem} plugin")
 
     # get all data files to process with current plugin
-    files = Path.cwd().glob(f"_data/{plugin.stem}*.*")
-    files = list(filter(lambda p: p.suffix in [".yaml", ".yml", ".json"], files))
+    if plugin.stem == "orcid":
+        files = sorted(Path("_members").glob("*.md"))
+    else:
+        files = sorted(
+            p for p in Path.cwd().glob(f"_data/{plugin.stem}*.*")
+            if p.suffix in [".yaml", ".yml", ".json"]
+        )
+    seen_orcids = set()
 
-    log(f"Found {len(files)} {plugin.stem}* data file(s)", indent=1)
+    input_label = "member Markdown" if plugin.stem == "orcid" else f"{plugin.stem}* data"
+    log(f"Found {len(files)} {input_label} file(s)", indent=1)
 
     # loop through data files
     for file in files:
@@ -50,7 +59,7 @@ for plugin in plugins:
 
         # load data from file
         try:
-            data = load_data(file)
+            data = load_member_orcid(file) if plugin.stem == "orcid" else load_data(file)
             # check if file in correct format
             if not list_of_dicts(data):
                 raise Exception(f"{file.name} data file not a list of dicts")
@@ -61,6 +70,11 @@ for plugin in plugins:
 
         # loop through data entries
         for index, entry in enumerate(data):
+            # Coauthors may configure the same iD; query each ORCID only once.
+            if plugin.stem == "orcid":
+                if entry["orcid"] in seen_orcids:
+                    continue
+                seen_orcids.add(entry["orcid"])
             log(f"Processing entry {index + 1} of {len(data)}, {label(entry)}", level=2)
 
             # run plugin on data entry to expand into multiple sources
@@ -96,18 +110,8 @@ for plugin in plugins:
 
 log("Merging sources by id")
 
-# merge sources with matching (non-blank) ids
-for a in range(0, len(sources)):
-    a_id = get_safe(sources, f"{a}.id", "")
-    if not a_id:
-        continue
-    for b in range(a + 1, len(sources)):
-        b_id = get_safe(sources, f"{b}.id", "")
-        if b_id == a_id:
-            log(f"Found duplicate {b_id}", indent=2)
-            sources[a].update(sources[b])
-            sources[b] = {}
-sources = [entry for entry in sources if entry]
+# Keep all coauthors' ORCIDs when the same paper appears in several records.
+sources = merge_sources(sources)
 
 
 log(f"{len(sources)} total source(s) to cite")
@@ -136,7 +140,7 @@ for index, source in enumerate(sources):
     _id = get_safe(source, "id", "").strip()
 
     # manubot doesn't work without an id
-    if _id:
+    if _id and not has_verified_metadata(source):
         log("Using Manubot to generate citation", indent=1)
 
         try:

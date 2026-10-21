@@ -1,7 +1,7 @@
 # site properties and page defaults
-title: THU-HU-LAB
-subtitle: 模板预览 · 示例内容
-description: THU-HU-LAB 课题组主页模板预览，成员、论文、项目和联系方式为示例，正式内容待补充。
+title: HU-LAB
+subtitle:
+description: HU-LAB 课题组主页模板预览，成员、论文、项目和联系方式为示例，正式内容待补充。
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
@@ -63,6 +63,8 @@ include:
 
 # force jekyll to exclude certain files/folders
 exclude:
+  - _downloads
+  - _cite
   - README.md
   - LICENSE.md
   - CITATION.cff
