@@ -15,7 +15,6 @@ nav:
 
 ## Highlighted
 
-{% include citation.html lookup="doi:10.1109/lra.2026.3732969" search_exclude=true %}
 
 {% include section.html %}
 

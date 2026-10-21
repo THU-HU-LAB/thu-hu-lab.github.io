@@ -1,6 +1,6 @@
 ---
 name: Jichuan Yu
-image: images/fallback.svg
+image: images/members/yujichuan.png
 role: phd
 description: Ph.D. Student
 affiliation: Department of Mechanical Engineering, Tsinghua University
