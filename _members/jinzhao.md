@@ -19,8 +19,3 @@ Zhao Jin (S’24) received the B.E. degree in mechanical engineering and a minor
 - Multi-robot safety motion planning
 - Humanoid whole-body control
 - Inferential statistics
-
-## Education
-
-- Ph.D. studies in progress, Department of Mechanical Engineering, Tsinghua University.
-- 2024: B.E. in Mechanical Engineering and a minor in Computer Science, Tsinghua University.
