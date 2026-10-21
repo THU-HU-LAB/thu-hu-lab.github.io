@@ -1,6 +1,6 @@
 ---
 name: Yueyao Zhao
-image: images/fallback.svg
+image: images/members/zhaoyueyao.png
 role: master
 description: Master's Student
 affiliation: Department of Mechanical Engineering, Tsinghua University
