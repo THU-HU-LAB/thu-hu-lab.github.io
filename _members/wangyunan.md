@@ -3,7 +3,7 @@ name: Yunan Wang
 image: images/members/wangyunan.png
 portrait_fit: cover
 portrait_padding: 0 16px
-portrait_position: center 20px
+portrait_position: center 0px
 portrait_background: "#ffffff"
 role: phd
 description: Ph.D. Student
