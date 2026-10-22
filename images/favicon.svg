@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .outline { fill: #164e63; }
+    @media (prefers-color-scheme: dark) {
+      .outline { fill: #e0f2fe; }
+    }
+  </style>
+  <path fill="#38bdf8" d="M32 25 L18 33 V47 L32 55 L46 47 V33 Z"/>
+  <path fill="#bae6fd" d="M32 25 L18 33 L32 41 L46 33 Z"/>
+  <path class="outline" fill="#164e63"
+    d="M22 4 H30 V21.2 L14 30.2 V47.8 L32 57.7 L50 47.8 V30.2 L34 21.2 V4 H42 V8 H38 V18.8 L54 27.8 V50.2 L32 62.3 L10 50.2 V27.8 L26 18.8 V8 H22 Z"/>
+</svg>
