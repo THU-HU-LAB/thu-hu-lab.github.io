@@ -28,16 +28,17 @@ layout: default
 <h2>Publications</h2>
 
 {% if member_orcid != "" %}
-  {% assign member_papers = site.data.citations | citations_for_orcid: member_orcid | sort: "date" | reverse %}
+  {% assign published_filter = "metadata_verified == true && ['journal', 'conference', 'book-chapter', 'correction'].include?(publication_type)" %}
+  {% assign member_papers = site.data.citations | data_filter: published_filter | citations_for_orcid: member_orcid | sort: "date" | reverse %}
   {% capture research_link %}/research/?orcid={{ member_orcid }}{% endcapture %}
   <p class="center">
-    {{ member_papers.size }} associated works ·
+    {{ member_papers.size }} associated published works ·
     <a href="{{ research_link | relative_url | xml_escape }}">View on Research</a>
   </p>
   {% for paper in member_papers %}
     {% include citation.html citation=paper %}
   {% else %}
-    <p>No publications have been associated with this member yet.</p>
+    <p>No published works have been associated with this member yet.</p>
   {% endfor %}
 {% else %}
   <p>Add an ORCID iD to associate publications with this member.</p>
