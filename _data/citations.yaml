@@ -49,7 +49,7 @@
   - 0000-0002-3504-3065
   - 0009-0005-1788-6148
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
   title: Online time-optimal trajectory planning along parametric toolpaths with strict
     constraint satisfaction and certifiable feasibility guarantee
   authors:
@@ -78,6 +78,15 @@
       registry ORCID only'
     date_field: issued
     excel_row: 14
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: Exact DOI in Jizhou Yan ORCID; author ORCID confirmed in publisher-deposited
+      metadata.
+    sources:
+    - https://doi.org/10.1016/j.ijmachtools.2025.104355
+    - https://pub.orcid.org/v3.0/0009-0002-7174-1853/works
 - id: doi:10.1109/tii.2026.3688315
   orcid: 0000-0002-4043-2268
   orcids:
@@ -118,8 +127,9 @@
   orcids:
   - 0000-0002-9812-7709
   - 0000-0002-3504-3065
+  - 0009-0006-8964-6941
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
   title: 'On the consistency of path smoothing and trajectory planning in CNC machining:
     A surface-centric evaluation'
   authors:
@@ -151,6 +161,14 @@
       registry ORCID only'
     date_field: issued
     excel_row: 29
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0006-8964-6941
+    basis: User-approved identity match using author name, Tsinghua affiliation, and
+      lab coauthors; manually bound to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1016/j.rcim.2024.102873
 - id: doi:10.1109/tac.2024.3455382
   orcid: 0000-0002-9812-7709
   orcids:
@@ -716,8 +734,9 @@
   orcids:
   - 0000-0001-5121-2677
   - 0000-0002-3504-3065
+  - 0009-0006-8964-6941
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
   title: Monocular Spatial Pose Estimation of the Overhead Contact System Dropper
     Clamp Based on Deep Learning
   authors:
@@ -745,6 +764,14 @@
       registry ORCID only'
     date_field: issued
     excel_row: 11
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0006-8964-6941
+    basis: User-approved identity match using author name, Tsinghua affiliation, and
+      lab coauthors; manually bound to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1109/tits.2026.3700332
 - id: doi:10.1109/lra.2026.3686598
   orcid: 0000-0002-4043-2268
   orcids:
@@ -754,7 +781,7 @@
   - 0000-0002-3504-3065
   - 0009-0005-1788-6148
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
   title: Multi-Priority Reactive Motion Control for Safe and Coordinated Dual-Arm
     Manipulation in Dynamic Environments
   authors:
@@ -781,6 +808,15 @@
       registry ORCID only'
     date_field: issued
     excel_row: 12
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: Exact DOI in Jizhou Yan ORCID; author ORCID confirmed in publisher-deposited
+      metadata.
+    sources:
+    - https://doi.org/10.1109/lra.2026.3686598
+    - https://pub.orcid.org/v3.0/0009-0002-7174-1853/works
 - id: doi:10.1088/2631-8695/ae2061
   orcid: 0000-0001-5121-2677
   orcids:
@@ -1625,6 +1661,12 @@
     date_field: issued
     excel_row: 122
 - id: doi:10.1038/s41597-026-08585-2
+  orcid: 0009-0005-8355-0183
+  orcids:
+  - 0009-0005-8355-0183
+  - 0000-0002-3504-3065
+  plugin: sources.py
+  file: sources-member-publications.yaml
   title: Trace-IN625 a source aware literature derived dataset of tensile properties
     and microstructure for additively manufactured IN625
   authors:
@@ -1635,13 +1677,48 @@
   - Chuxiong Hu
   publisher: Scientific Data
   date: '2026-10-19'
-  link: https://doi.org/hcpx3h
-  orcid: 0009-0005-8355-0183
-  orcids:
-  - 0009-0005-8355-0183
-  plugin: orcid.py
-  file: xiangjinlai.md
+  date_precision: day
+  link: https://doi.org/10.1038/s41597-026-08585-2
+  type: paper
+  publication_type: journal
+  tags:
+  - journal
+  metadata_verified: true
+  verification:
+    checked_at: '2026-10-26'
+    sources:
+    - https://doi.org/10.1038/s41597-026-08585-2
+    - https://pub.orcid.org/v3.0/0009-0005-8355-0183/works
+    - https://www.nature.com/articles/s41597-026-08585-2
+    decision: Exact DOI, title, authors, and publication type verified against publisher-deposited
+      Crossref metadata.
+    member_association: Exact work in Jinlai Xiang ORCID; publisher confirms Tsinghua
+      affiliation, equal contribution, and Chuxiong Hu coauthorship.
+    date_field: issued
+  buttons:
+  - text: Full text
+    type: website
+    link: https://www.nature.com/articles/s41597-026-08585-2
+  - text: PDF
+    type: paper
+    link: https://www.nature.com/articles/s41597-026-08585-2.pdf
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0005-8355-0183
+    - 0000-0002-3504-3065
+    basis: Exact work in Jinlai Xiang ORCID; publisher confirms Tsinghua affiliation,
+      equal contribution, and Chuxiong Hu coauthorship.
+    sources:
+    - https://doi.org/10.1038/s41597-026-08585-2
+    - https://pub.orcid.org/v3.0/0009-0005-8355-0183/works
+    - https://www.nature.com/articles/s41597-026-08585-2
 - id: doi:10.1016/j.measurement.2024.115241
+  orcid: 0009-0002-7174-1853
+  orcids:
+  - 0009-0002-7174-1853
+  plugin: sources.py
+  file: sources-member-publications.yaml
   title: A distributed force reconstruction mapping model with physical compactness
     and low computational cost for Vision-based Tactile Sensors
   authors:
@@ -1651,12 +1728,34 @@
   - Yao Jiang
   publisher: Measurement
   date: '2024-10-01'
-  link: https://doi.org/hcpx3j
-  orcid: 0009-0002-7174-1853
-  orcids:
-  - 0009-0002-7174-1853
-  plugin: orcid.py
-  file: yanjizhou.md
+  date_precision: month
+  link: https://doi.org/10.1016/j.measurement.2024.115241
+  type: paper
+  publication_type: journal
+  tags:
+  - journal
+  metadata_verified: true
+  verification:
+    checked_at: '2026-10-26'
+    sources:
+    - https://doi.org/10.1016/j.measurement.2024.115241
+    - https://pub.orcid.org/v3.0/0009-0002-7174-1853/works
+    - https://api.crossref.org/works/10.1016/j.measurement.2024.115241
+    decision: Exact DOI, title, authors, and publication type verified against publisher-deposited
+      Crossref metadata.
+    member_association: Exact DOI in Jizhou Yan ORCID and identical author ORCID in
+      publisher-deposited Crossref metadata.
+    date_field: issued
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: Exact DOI in Jizhou Yan ORCID and identical author ORCID in publisher-deposited
+      Crossref metadata.
+    sources:
+    - https://doi.org/10.1016/j.measurement.2024.115241
+    - https://pub.orcid.org/v3.0/0009-0002-7174-1853/works
+    - https://api.crossref.org/works/10.1016/j.measurement.2024.115241
 - id: doi:10.1109/tii.2024.3507955
   orcid: 0000-0002-4043-2268
   orcids:
@@ -1818,6 +1917,7 @@
   - journal
   orcids:
   - 0000-0002-3504-3065
+  - 0009-0002-7174-1853
   metadata_verified: true
   verification:
     checked_at: '2026-10-18'
@@ -1829,7 +1929,15 @@
     date_field: issued
     excel_row: 9
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: User-approved identity match using author name, Tsinghua affiliation, and
+      lab coauthors; manually bound to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1016/j.rcim.2025.103107
 - id: doi:10.1016/j.eswa.2026.134071
   title: 'MaskPose: A novel learning-free monocular RGB-based 6D pose estimation method
     eliminating data dependency'
@@ -1850,6 +1958,7 @@
   - journal
   orcids:
   - 0000-0002-3504-3065
+  - 0009-0002-7174-1853
   metadata_verified: true
   verification:
     checked_at: '2026-10-18'
@@ -1861,7 +1970,15 @@
     date_field: issued
     excel_row: 10
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: User-approved identity match using author name, Tsinghua affiliation, and
+      lab coauthors; manually bound to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1016/j.eswa.2026.134071
 - id: doi:10.1016/j.ymssp.2025.113583
   title: Repetitive error selected iterative learning contouring control for precision
     multiaxis systems
@@ -1915,6 +2032,7 @@
   - conference
   orcids:
   - 0000-0002-3504-3065
+  - 0009-0002-7174-1853
   metadata_verified: true
   verification:
     checked_at: '2026-10-18'
@@ -1926,7 +2044,15 @@
     date_field: issued
     excel_row: 26
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: User-approved identity match using author name, Tsinghua affiliation, and
+      lab coauthors; manually bound to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1109/aim64088.2025.11175759
 - id: doi:10.1109/icus66297.2025.11294638
   title: NN-based Adaptive Robust Motion Control of Underactuated AUVs
   authors:
@@ -2226,6 +2352,7 @@
   - conference
   orcids:
   - 0000-0002-3504-3065
+  - 0009-0002-7174-1853
   metadata_verified: true
   verification:
     checked_at: '2026-10-18'
@@ -2237,7 +2364,15 @@
     date_field: issued
     excel_row: 43
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: User-approved identity match using author name, Tsinghua affiliation, and
+      lab coauthors; manually bound to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1109/icarm62033.2024.10715905
 - id: doi:10.1109/tie.2023.3288145
   title: High-Accuracy Sensorless Control of Permanent Magnet Linear Synchronous Motors
     for Variable Speed Trajectories
@@ -6774,6 +6909,7 @@
   - preprint
   orcids:
   - 0000-0002-3504-3065
+  - 0009-0002-7174-1853
   buttons:
   - text: "PDF \xB7 arXiv"
     tooltip: Download arXiv preprint PDF
@@ -6787,7 +6923,15 @@
     decision: Official arXiv author metadata; Hu identity reviewed against coauthors
       and research context. Other members not inferred from names.
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: User-approved identity match using author name, Tsinghua affiliation, and
+      lab coauthors; manually bound to the member profile ORCID.
+    sources:
+    - https://arxiv.org/abs/2609.23566
 - id: arxiv:2605.19089
   title: Reachability-Augmented Dual Dynamic Programming for Optimal Path Parameterization
   authors:
@@ -6805,6 +6949,7 @@
   - preprint
   orcids:
   - 0000-0002-3504-3065
+  - 0009-0002-7174-1853
   buttons:
   - text: "PDF \xB7 arXiv"
     tooltip: Download arXiv preprint PDF
@@ -6818,7 +6963,15 @@
     decision: Official arXiv author metadata; Hu identity reviewed against coauthors
       and research context. Other members not inferred from names.
   plugin: sources.py
-  file: sources-huchuxiong.yaml
+  file: sources-member-publications.yaml
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids:
+    - 0009-0002-7174-1853
+    basis: User-approved identity match using author name, Tsinghua affiliation, and
+      lab coauthors; manually bound to the member profile ORCID.
+    sources:
+    - https://arxiv.org/abs/2605.19089
 - id: arxiv:2605.07605
   title: 'BrickCraft: Visuomotor Skill Composition with Situated Manual Guidance for
     Long-Horizon Interlocking Brick Assembly'

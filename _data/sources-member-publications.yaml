@@ -1,0 +1,180 @@
+# Reviewed member associations; DOI duplicates merge with the main library.
+# Keep these overrides separate from generated citations and the 2026-10-18 import snapshot.
+- id: doi:10.1038/s41597-026-08585-2
+  orcids: &id001
+  - 0009-0005-8355-0183
+  - 0000-0002-3504-3065
+  title: Trace-IN625 a source aware literature derived dataset of tensile properties and microstructure for additively
+    manufactured IN625
+  authors:
+  - Heyu Song
+  - Jinlai Xiang
+  - Minchen Liao
+  - Xinling Song
+  - Chuxiong Hu
+  publisher: Scientific Data
+  date: '2026-10-19'
+  date_precision: day
+  link: https://doi.org/10.1038/s41597-026-08585-2
+  type: paper
+  publication_type: journal
+  tags:
+  - journal
+  metadata_verified: true
+  verification:
+    checked_at: '2026-10-26'
+    sources: &id002
+    - https://doi.org/10.1038/s41597-026-08585-2
+    - https://pub.orcid.org/v3.0/0009-0005-8355-0183/works
+    - https://www.nature.com/articles/s41597-026-08585-2
+    decision: Exact DOI, title, authors, and publication type verified against publisher-deposited Crossref metadata.
+    member_association: Exact work in Jinlai Xiang ORCID; publisher confirms Tsinghua affiliation, equal contribution,
+      and Chuxiong Hu coauthorship.
+    date_field: issued
+  buttons:
+  - text: Full text
+    type: website
+    link: https://www.nature.com/articles/s41597-026-08585-2
+  - text: PDF
+    type: paper
+    link: https://www.nature.com/articles/s41597-026-08585-2.pdf
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id001
+    basis: Exact work in Jinlai Xiang ORCID; publisher confirms Tsinghua affiliation, equal contribution, and Chuxiong
+      Hu coauthorship.
+    sources: *id002
+- id: doi:10.1016/j.measurement.2024.115241
+  orcids: &id003
+  - 0009-0002-7174-1853
+  title: A distributed force reconstruction mapping model with physical compactness and low computational cost for
+    Vision-based Tactile Sensors
+  authors:
+  - Jizhou Yan
+  - Lunwei Zhang
+  - Tiemin Li
+  - Yao Jiang
+  publisher: Measurement
+  date: '2024-10-01'
+  date_precision: month
+  link: https://doi.org/10.1016/j.measurement.2024.115241
+  type: paper
+  publication_type: journal
+  tags:
+  - journal
+  metadata_verified: true
+  verification:
+    checked_at: '2026-10-26'
+    sources: &id004
+    - https://doi.org/10.1016/j.measurement.2024.115241
+    - https://pub.orcid.org/v3.0/0009-0002-7174-1853/works
+    - https://api.crossref.org/works/10.1016/j.measurement.2024.115241
+    decision: Exact DOI, title, authors, and publication type verified against publisher-deposited Crossref metadata.
+    member_association: Exact DOI in Jizhou Yan ORCID and identical author ORCID in publisher-deposited Crossref
+      metadata.
+    date_field: issued
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id003
+    basis: Exact DOI in Jizhou Yan ORCID and identical author ORCID in publisher-deposited Crossref metadata.
+    sources: *id004
+- id: doi:10.1016/j.rcim.2024.102873
+  orcids: &id005
+  - 0009-0006-8964-6941
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id005
+    basis: User-approved identity match using author name, Tsinghua affiliation, and lab coauthors; manually bound
+      to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1016/j.rcim.2024.102873
+- id: doi:10.1109/tits.2026.3700332
+  orcids: &id006
+  - 0009-0006-8964-6941
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id006
+    basis: User-approved identity match using author name, Tsinghua affiliation, and lab coauthors; manually bound
+      to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1109/tits.2026.3700332
+- id: doi:10.1016/j.ijmachtools.2025.104355
+  orcids: &id007
+  - 0009-0002-7174-1853
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id007
+    basis: Exact DOI in Jizhou Yan ORCID; author ORCID confirmed in publisher-deposited metadata.
+    sources:
+    - https://doi.org/10.1016/j.ijmachtools.2025.104355
+    - https://pub.orcid.org/v3.0/0009-0002-7174-1853/works
+- id: doi:10.1109/lra.2026.3686598
+  orcids: &id008
+  - 0009-0002-7174-1853
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id008
+    basis: Exact DOI in Jizhou Yan ORCID; author ORCID confirmed in publisher-deposited metadata.
+    sources:
+    - https://doi.org/10.1109/lra.2026.3686598
+    - https://pub.orcid.org/v3.0/0009-0002-7174-1853/works
+- id: doi:10.1016/j.rcim.2025.103107
+  orcids: &id009
+  - 0009-0002-7174-1853
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id009
+    basis: User-approved identity match using author name, Tsinghua affiliation, and lab coauthors; manually bound
+      to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1016/j.rcim.2025.103107
+- id: doi:10.1016/j.eswa.2026.134071
+  orcids: &id010
+  - 0009-0002-7174-1853
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id010
+    basis: User-approved identity match using author name, Tsinghua affiliation, and lab coauthors; manually bound
+      to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1016/j.eswa.2026.134071
+- id: doi:10.1109/aim64088.2025.11175759
+  orcids: &id011
+  - 0009-0002-7174-1853
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id011
+    basis: User-approved identity match using author name, Tsinghua affiliation, and lab coauthors; manually bound
+      to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1109/aim64088.2025.11175759
+- id: doi:10.1109/icarm62033.2024.10715905
+  orcids: &id012
+  - 0009-0002-7174-1853
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id012
+    basis: User-approved identity match using author name, Tsinghua affiliation, and lab coauthors; manually bound
+      to the member profile ORCID.
+    sources:
+    - https://doi.org/10.1109/icarm62033.2024.10715905
+- id: arxiv:2609.23566
+  orcids: &id013
+  - 0009-0002-7174-1853
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id013
+    basis: User-approved identity match using author name, Tsinghua affiliation, and lab coauthors; manually bound
+      to the member profile ORCID.
+    sources:
+    - https://arxiv.org/abs/2609.23566
+- id: arxiv:2605.19089
+  orcids: &id014
+  - 0009-0002-7174-1853
+  member_association_review:
+    checked_at: '2026-10-26'
+    orcids: *id014
+    basis: User-approved identity match using author name, Tsinghua affiliation, and lab coauthors; manually bound
+      to the member profile ORCID.
+    sources:
+    - https://arxiv.org/abs/2605.19089

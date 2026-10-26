@@ -1,0 +1,94 @@
+{
+  "DOI": "10.1016/j.measurement.2024.115241",
+  "title": [
+    "A distributed force reconstruction mapping model with physical compactness and low computational cost for Vision-based Tactile Sensors"
+  ],
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0002-7174-1853",
+      "authenticated-orcid": false,
+      "given": "Jizhou",
+      "family": "Yan",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Lunwei",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Tiemin",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6036-6413",
+      "authenticated-orcid": false,
+      "given": "Yao",
+      "family": "Jiang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Measurement"
+  ],
+  "publisher": "Elsevier BV",
+  "type": "journal-article",
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        10
+      ]
+    ]
+  },
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        10
+      ]
+    ]
+  },
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        10
+      ]
+    ]
+  },
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0263224124011266"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "DOI": "10.1038/s41597-026-08585-2",
+  "title": [
+    "Trace-IN625 a source aware literature derived dataset of tensile properties and microstructure for additively manufactured IN625"
+  ],
+  "author": [
+    {
+      "given": "Heyu",
+      "family": "Song",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jinlai",
+      "family": "Xiang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Minchen",
+      "family": "Liao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0003-4979-2862",
+      "authenticated-orcid": false,
+      "given": "Xinling",
+      "family": "Song",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-3504-3065",
+      "authenticated-orcid": false,
+      "given": "Chuxiong",
+      "family": "Hu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Scientific Data"
+  ],
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article",
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        19
+      ]
+    ]
+  },
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        19
+      ]
+    ]
+  },
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        19
+      ]
+    ]
+  },
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41597-026-08585-2"
+    }
+  }
+}
