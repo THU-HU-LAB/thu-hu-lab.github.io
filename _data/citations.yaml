@@ -44,6 +44,7 @@
   orcid: 0000-0002-4043-2268
   orcids:
   - 0000-0002-9812-7709
+  - 0009-0002-7174-1853
   - 0000-0002-4043-2268
   - 0000-0002-3504-3065
   - 0009-0005-1788-6148
@@ -748,6 +749,7 @@
   orcid: 0000-0002-4043-2268
   orcids:
   - 0000-0001-5121-2677
+  - 0009-0002-7174-1853
   - 0000-0002-4043-2268
   - 0000-0002-3504-3065
   - 0009-0005-1788-6148
@@ -1622,6 +1624,39 @@
       registry ORCID only'
     date_field: issued
     excel_row: 122
+- id: doi:10.1038/s41597-026-08585-2
+  title: Trace-IN625 a source aware literature derived dataset of tensile properties
+    and microstructure for additively manufactured IN625
+  authors:
+  - Heyu Song
+  - Jinlai Xiang
+  - Minchen Liao
+  - Xinling Song
+  - Chuxiong Hu
+  publisher: Scientific Data
+  date: '2026-10-19'
+  link: https://doi.org/hcpx3h
+  orcid: 0009-0005-8355-0183
+  orcids:
+  - 0009-0005-8355-0183
+  plugin: orcid.py
+  file: xiangjinlai.md
+- id: doi:10.1016/j.measurement.2024.115241
+  title: A distributed force reconstruction mapping model with physical compactness
+    and low computational cost for Vision-based Tactile Sensors
+  authors:
+  - Jizhou Yan
+  - Lunwei Zhang
+  - Tiemin Li
+  - Yao Jiang
+  publisher: Measurement
+  date: '2024-10-01'
+  link: https://doi.org/hcpx3j
+  orcid: 0009-0002-7174-1853
+  orcids:
+  - 0009-0002-7174-1853
+  plugin: orcid.py
+  file: yanjizhou.md
 - id: doi:10.1109/tii.2024.3507955
   orcid: 0000-0002-4043-2268
   orcids:
