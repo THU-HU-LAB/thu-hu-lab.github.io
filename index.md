@@ -7,8 +7,9 @@ HU-LAB is a research group led by Professor Chuxiong Hu in the Department of Mec
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  type="email"
+  text="Contact us"
+  link="cxhu@tsinghua.edu.cn"
 %}
 {%
   include button.html
@@ -23,7 +24,7 @@ HU-LAB is a research group led by Professor Chuxiong Hu in the Department of Mec
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore our work on precision motion control, trajectory planning, robotic perception, and safe coordination of multiple robots. Our publications connect control and optimization methods with applications in advanced manufacturing and robotics.
 
 {%
   include button.html
@@ -46,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research spans semiconductor manufacturing equipment, CNC machining, robotic manipulation and assembly, and intelligent railway maintenance. Learn about the research directions that bring these applications together.
 
 {%
   include button.html
@@ -71,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the researchers and students of HU-LAB at Tsinghua University. Visit individual profiles to learn about their research interests and associated publications.
 
 {%
   include button.html

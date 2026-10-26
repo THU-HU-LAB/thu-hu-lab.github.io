@@ -2,53 +2,48 @@
 title: Contact
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Email and affiliation
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For research collaboration, graduate study, postdoctoral opportunities, or other inquiries about HU-LAB, please contact Professor Chuxiong Hu. You can also find individual contact details on our team members' profiles.
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="cxhu@tsinghua.edu.cn"
+  link="cxhu@tsinghua.edu.cn"
 %}
 {%
   include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  type="website"
+  text="Department of Mechanical Engineering"
+  link="https://me.tsinghua.edu.cn/info/1118/3390.htm"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  text="Tsinghua University"
+  tooltip="Find Tsinghua University on Google Maps"
+  link="https://www.google.com/maps/search/?api=1&query=Tsinghua+University"
 %}
 
 {% include section.html %}
 
 {% capture col1 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+## Research Inquiries
+
+Tell us about your research interests and how they relate to our work in precision motion control, robotics, planning, or intelligent manufacturing.
 
 {% endcapture %}
 
 {% capture col2 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+## Joining the Group
+
+Prospective students and postdoctoral researchers are welcome to get in touch by email. Please include a brief introduction and your relevant academic or research background.
 
 {% endcapture %}
 
@@ -57,21 +52,19 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**HU-LAB**<br>
+Research in precision engineering, robotics, and intelligent manufacturing.
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Affiliation**<br>
+Department of Mechanical Engineering<br>
+Tsinghua University
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Email**<br>
+[cxhu@tsinghua.edu.cn](mailto:cxhu@tsinghua.edu.cn)
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

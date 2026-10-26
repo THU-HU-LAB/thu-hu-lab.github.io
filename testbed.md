@@ -12,10 +12,10 @@ footer-dark: false
 
 # Basic formatting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
+Use these examples to compare headings, links, lists, and other elements before updating the main pages.
+Longer passages help demonstrate line wrapping and the relationship between text and nearby images.
+The content on this page is for testing website components rather than describing research results.
 
 [External link](https://some-website.org/)
 
@@ -53,27 +53,27 @@ Plain image:
 
 # Heading 1
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
 
 ## Heading 2
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
 
 ### Heading 3
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
 
 #### Heading 4
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
 
 ##### Heading 5
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
 
 ###### Heading 6
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
 
 ---
 
@@ -92,22 +92,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 const popup = document.querySelector("#popup");
 popup.style.width = "100%";
 popup.innerText =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+  "This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.";
 ```
 
 This sentence has `inline code`, useful for making references to variables, packages, versions, etc. within a sentence.
 
-Lorem ipsum dolor sit amet.
+This text is aligned to the left.
 {:.left}
-Consectetur adipiscing elit.
+This text is aligned to the center.
 {:.center}
-Sed do eiusmod tempor incididunt.
+This text is aligned to the right.
 {:.right}
 
 <details markdown="1">
 <summary>Hidden content</summary>
 
-**Lorem** _ipsum_ [dolor sit amet](), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+**Expandable** _content_ can include [links](team), lists, and other formatting to demonstrate how details appear when opened.
 
 </details>
 
@@ -171,13 +171,13 @@ Section, `size=full` w/ figure
 ## Figure
 
 {% include figure.html image="images/icon.png" %}
-{% include figure.html image="images/icon.png" caption="_Lorem_ **ipsum**." %}
-{% include figure.html image="images/icon.png" caption="_Lorem_ **ipsum**. `px` width" width="400px" %}
-{% include figure.html image="images/icon.png" caption="_Lorem_ **ipsum**. `%` width" link="team" width="50%" %}
-{% include figure.html image="images/icon.png" caption="_Lorem_ **ipsum**. `px` height" link="team" height="200px" %}
-{% include figure.html image="images/fallback.svg" caption="_Lorem_ **ipsum**. `px` width, svg" link="team" width="400px" %}
-{% include figure.html image="images/fallback.svg" caption="_Lorem_ **ipsum**. `%` width, svg" link="team" width="50%" %}
-{% include figure.html image="images/fallback.svg" caption="_Lorem_ **ipsum**. `px` height, svg" link="team" height="200px" %}
+{% include figure.html image="images/icon.png" caption="_Example_ **caption**." %}
+{% include figure.html image="images/icon.png" caption="_Example_ **caption**. `px` width" width="400px" %}
+{% include figure.html image="images/icon.png" caption="_Example_ **caption**. `%` width" link="team" width="50%" %}
+{% include figure.html image="images/icon.png" caption="_Example_ **caption**. `px` height" link="team" height="200px" %}
+{% include figure.html image="images/fallback.svg" caption="_Example_ **caption**. `px` width, svg" link="team" width="400px" %}
+{% include figure.html image="images/fallback.svg" caption="_Example_ **caption**. `%` width, svg" link="team" width="50%" %}
+{% include figure.html image="images/fallback.svg" caption="_Example_ **caption**. `px` height, svg" link="team" height="200px" %}
 
 {% include section.html %}
 
@@ -198,16 +198,16 @@ Section, `size=full` w/ figure
 {% include icon.html icon="fa-solid fa-flask" %}
 {% include icon.html icon="manubot.svg" %}
 
-{% include icon.html icon="fa-brands fa-github" %} Lorem
-{% include icon.html icon="fa-solid fa-microscope" %} Ipsum
-{% include icon.html icon="manubot.svg" %} Dolor
+{% include icon.html icon="fa-brands fa-github" %} GitHub
+{% include icon.html icon="fa-solid fa-microscope" %} Research
+{% include icon.html icon="manubot.svg" %} Citations
 
 {% include section.html %}
 
 ## Feature
 
 {% capture text %}
-_Lorem_ **ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+_Feature_ **content** explains a topic and connects readers to another page on the website.
 {% endcapture%}
 {% include feature.html image="images/icon.png" link="team" title="Title" text=text %}
 {% include feature.html image="images/icon.png" title="Title" text=text flip=true %}
@@ -252,7 +252,7 @@ _Lorem_ **ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 ## Card
 
 {% include card.html image="images/icon.png" link="https://nasa.gov/" title="A Large Card" subtitle="A cool card" description="A cool description" tooltip="A cool tooltip" tags="manual tag" repo="greenelab/lab-website-template" %}
-{% include card.html image="images/icon.png" title="A Small Card" subtitle="A cool card" description="_Lorem_ **ipsum**" tooltip="A cool tooltip" tags="manual tag" repo="greenelab/lab-website-template" style="small" %}
+{% include card.html image="images/icon.png" title="A Small Card" subtitle="A cool card" description="_Example_ **caption**" tooltip="A cool tooltip" tags="manual tag" repo="greenelab/lab-website-template" style="small" %}
 
 {% include section.html %}
 
@@ -274,20 +274,20 @@ _Lorem_ **ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 
 ## Alert
 
-{% capture lorem %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% capture example_text %}
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment. This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
 {% endcapture %}
-{% capture content %}**Tip** {{ lorem }}{% endcapture %}
+{% capture content %}**Tip** {{ example_text }}{% endcapture %}
 {% include alert.html type="tip" content=content %}
-{% capture content %}**Help** {{ lorem }}{% endcapture %}
+{% capture content %}**Help** {{ example_text }}{% endcapture %}
 {% include alert.html type="help" content=content %}
-{% capture content %}**Info** {{ lorem }}{% endcapture %}
+{% capture content %}**Info** {{ example_text }}{% endcapture %}
 {% include alert.html type="info" content=content %}
-{% capture content %}**Success** {{ lorem }}{% endcapture %}
+{% capture content %}**Success** {{ example_text }}{% endcapture %}
 {% include alert.html type="success" content=content %}
-{% capture content %}**Warning** {{ lorem }}{% endcapture %}
+{% capture content %}**Warning** {{ example_text }}{% endcapture %}
 {% include alert.html type="warning" content=content %}
-{% capture content %}**Error** {{ lorem }}{% endcapture %}
+{% capture content %}**Error** {{ example_text }}{% endcapture %}
 {% include alert.html type="error" content=content %}
 
 {% include section.html %}
@@ -306,7 +306,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% include figure.html image="images/icon.png" caption="Caption" width="200px" %}
 {% endcapture %}
 {% include float.html content=content %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment. Use these examples to compare headings, links, lists, and other elements before updating the main pages. Longer passages help demonstrate line wrapping and the relationship between text and nearby images. The content on this page is for testing website components rather than describing research results.
 {% include float.html clear=true %}
 
 ### Code
@@ -314,12 +314,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% capture content %}
 
 ```javascript
-const test = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+const test = "This sample message demonstrates a JavaScript string.";
 ```
 
 {% endcapture %}
 {% include float.html content=content flip=true %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Tristique magna sit amet purus gravida quis blandit turpis cursus. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. A cras semper auctor neque vitae tempus quam pellentesque nec. At tellus at urna condimentum mattis pellentesque. Ipsum consequat nisl vel pretium. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Integer vitae justo eget magna fermentum iaculis eu non diam. Mus mauris vitae ultricies leo integer malesuada nunc vel. Leo integer malesuada nunc vel risus. Ornare arcu odio ut sem nulla pharetra. Purus semper eget duis at tellus at urna condimentum. Enim neque volutpat ac tincidunt vitae semper quis lectus.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment. Additional sentences show how a longer paragraph appears. Check that spacing remains comfortable to read. Compare the layout at different screen widths. Images and text should remain clearly separated. Keep related information together in each section. Use headings to make the page easier to scan. Review both short and long paragraphs. Each paragraph should remain legible beside the surrounding components. This sample adds enough text to test the available space. Check the balance between text and images. Allow enough space between elements. Keep captions close to their figures. Use a consistent style across the page. The final sentence completes this layout demonstration.
 
 {% include section.html %}
 
@@ -379,13 +379,13 @@ With figure components
 ### Text
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment.
 {% endcapture %}
 {% capture col2 %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis. Id aliquet lectus proin nibh nisl condimentum id venenatis a.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment. Additional sentences show how a longer paragraph appears. Check that spacing remains comfortable to read.
 {% endcapture %}
 {% capture col3 %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Tristique magna sit amet purus gravida quis blandit turpis cursus. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. A cras semper auctor neque vitae tempus quam pellentesque nec. At tellus at urna condimentum mattis pellentesque. Ipsum consequat nisl vel pretium. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Integer vitae justo eget magna fermentum iaculis eu non diam. Mus mauris vitae ultricies leo integer malesuada nunc vel. Leo integer malesuada nunc vel risus. Ornare arcu odio ut sem nulla pharetra. Purus semper eget duis at tellus at urna condimentum. Enim neque volutpat ac tincidunt vitae semper quis lectus.
+This component demonstration shows how readable text flows within the website layout, with consistent spacing, typography, and alignment. Additional sentences show how a longer paragraph appears. Check that spacing remains comfortable to read. Compare the layout at different screen widths. Images and text should remain clearly separated. Keep related information together in each section. Use headings to make the page easier to scan. Review both short and long paragraphs. Each paragraph should remain legible beside the surrounding components. This sample adds enough text to test the available space. Check the balance between text and images. Allow enough space between elements. Keep captions close to their figures. Use a consistent style across the page. The final sentence completes this layout demonstration.
 {% endcapture %}
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
 
@@ -393,15 +393,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture col1 %}
 {% include figure.html image="images/icon.png" caption="Fig. 1a" %}
-Lorem _ipsum_ dolor **sit** amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This _figure_ appears beside **supporting text** to demonstrate a column layout.
 {% endcapture %}
 {% capture col2 %}
 {% include figure.html image="images/icon.png" caption="Fig. 1b" %}
-Lorem _ipsum_ dolor **sit** amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This _figure_ appears beside **supporting text** to demonstrate a column layout.
 {% endcapture %}
 {% capture col3 %}
 {% include figure.html image="images/icon.png" caption="Fig. 1c" %}
-Lorem _ipsum_ dolor **sit** amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This _figure_ appears beside **supporting text** to demonstrate a column layout.
 {% endcapture %}
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
 
@@ -410,21 +410,21 @@ Lorem _ipsum_ dolor **sit** amet, consectetur adipiscing elit, sed do eiusmod te
 {% capture col1 %}
 
 ```javascript
-const test = "Lorem ipsum dolor sit amet";
+const test = "Example component text";
 ```
 
 {% endcapture %}
 {% capture col2 %}
 
 ```javascript
-const test = "Lorem ipsum dolor sit amet";
+const test = "Example component text";
 ```
 
 {% endcapture %}
 {% capture col3 %}
 
 ```javascript
-const test = "Lorem ipsum dolor sit amet";
+const test = "Example component text";
 ```
 
 {% endcapture %}

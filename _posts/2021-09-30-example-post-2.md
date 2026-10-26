@@ -1,6 +1,7 @@
 ---
-title: Example post 2
-author: jane-smith
+title: "Example post: Research notes"
+tags:
+  - website example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Research notes can explain a method, discuss an engineering challenge, or point readers to related publications. This example illustrates the format and does not announce a research result.

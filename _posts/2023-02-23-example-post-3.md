@@ -1,8 +1,8 @@
 ---
-title: Example post 3
+title: "Example post: Announcements"
 image: images/photo.jpg
-author: john-doe
-tags: biology, medicine
+tags:
+  - website example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Announcements can share opportunities, talks, and updates from the group. This example illustrates a post with a cover image; it does not describe an actual event.

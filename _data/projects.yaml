@@ -1,47 +1,46 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Precision Motion Control
+  subtitle: Control for precision mechatronic systems
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: /research/?search=precision
+  description: Motion control methods for precision and ultraprecision systems, with applications in wafer stages, planar motors, and advanced manufacturing equipment.
   tags:
-    - resource
+    - control
+    - manufacturing
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Trajectory Planning and Multi-Robot Coordination
+  subtitle: Optimization for safe and coordinated motion
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: /research/?search=planning
+  description: Trajectory planning, path parameterization, and coordinated motion methods for machine tools and robotic systems.
   tags:
-    - resource
+    - planning
+    - robotics
 
-- title: Cool Tutorial
-  subtitle: a subtitle
+- title: Robotic Perception
+  subtitle: Pose estimation for manipulation
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: /research/?search=pose
+  description: Visual perception and pose estimation methods that support robotic manipulation, assembly, and inspection tasks.
   tags:
-    - resource
-    - publication
+    - perception
+    - robotics
 
-- title: Cool Web App
-  subtitle: a subtitle
+- title: Learning for Robotic Manipulation
+  subtitle: Learning and control for assembly tasks
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: /research/?search=learning
+  description: Learning-based methods for robotic skills, manipulation, and assembly, connecting perception with planning and control.
   tags:
-    - software
+    - robotics
+    - control
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: Intelligent Manufacturing Applications
+  subtitle: From motion systems to engineering applications
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: /research/?search=manufacturing
+  description: Research on control, planning, and mechatronic system design for semiconductor equipment, CNC machining, and robotic manufacturing.
   tags:
-    - software
+    - manufacturing
+    - planning

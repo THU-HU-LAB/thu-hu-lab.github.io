@@ -2,26 +2,25 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Research themes and applications
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Explore the research themes behind our work in precision engineering, robotics, and intelligent manufacturing. Each topic links to our publication library, where you can search for related methods and applications.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="control, planning, robotics, manufacturing, perception" %}
 
 {% include search-info.html %}
 
 {% include section.html %}
 
-## Featured
+## Core Research Themes
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
-## More
+## Related Directions
 
 {% include list.html component="card" data="projects" filter="!group" style="small" %}

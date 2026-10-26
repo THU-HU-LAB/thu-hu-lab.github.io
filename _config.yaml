@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: HU-LAB
 subtitle:
-description: HU-LAB 课题组主页模板预览，成员、论文、项目和联系方式为示例，正式内容待补充。
+description: HU-LAB at Tsinghua University conducts research in precision motion control, robotics, trajectory planning, and intelligent manufacturing.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false

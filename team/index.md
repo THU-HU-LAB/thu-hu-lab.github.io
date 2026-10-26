@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+HU-LAB brings together researchers and students in the Department of Mechanical Engineering at Tsinghua University. Our interests span precision motion control, robotics, intelligent manufacturing, and learning for manipulation. Select a member to explore their profile and publications.
 
 {% include section.html %}
 
@@ -23,9 +21,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Interested in joining HU-LAB or collaborating with us? We welcome inquiries from students and researchers interested in mechanical engineering, robotics, control, and related areas. Please visit our Contact page to get in touch.
 
 {% include section.html %}
 

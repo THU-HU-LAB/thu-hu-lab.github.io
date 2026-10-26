@@ -7,9 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-课题组论文与研究成果。可搜索题名、作者或 DOI；点击成员主页中的链接，可查看与该成员关联的成果。
+Explore the group's publications and research outputs. Search by title, author, or DOI, or follow the publication link on a member's profile to view their associated works.
 
-本页展示已核实正式出版记录的期刊论文、会议论文、书籍章节和勘误；有公开全文的记录提供 PDF 链接。
+This page lists verified journal articles, conference papers, book chapters, and corrections with formal publication records. Links to publicly available full texts are provided where available.
 
 {% include section.html %}
 
@@ -22,7 +22,7 @@ nav:
 
 {% assign published_filter = "metadata_verified == true && ['journal', 'conference', 'book-chapter', 'correction'].include?(publication_type)" %}
 {% assign total_publications = site.data.citations | data_filter: published_filter | size %}
-共 {{ total_publications }} 条正式出版记录。
+{{ total_publications }} verified publication records.
 
 {% include search-box.html %}
 
