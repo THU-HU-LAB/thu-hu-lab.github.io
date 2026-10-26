@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="{{ page.lang | default: 'en' }}" data-locale="{{ page.locale | default: 'en' }}" data-home="{{ '/' | relative_url }}" data-chinese-home="{{ '/zh/' | relative_url }}" data-dark="false">
   {% include head.html %}
   <body>
     {% include header.html %}
     <main>
+      {% if page.translation_fallback %}
+        <p class="translation-notice">{{ 'fallback' | t: page.locale }}</p>
+      {% endif %}
       {% include content.html content=content %}
     </main>
     {% include footer.html %}

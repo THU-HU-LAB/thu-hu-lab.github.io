@@ -1,0 +1,88 @@
+en:
+  home: Home
+  nav_toggle: Show or hide navigation
+  language_switch: Switch language
+  fallback: A Chinese translation is not available yet. The original English content is shown below.
+  publications: Publications
+  associated_works: "__COUNT__ associated published works"
+  associated_work: "__COUNT__ associated published work"
+  view_research: View on Research
+  no_publications: No published works have been associated with this member yet.
+  no_orcid: Add an ORCID iD to associate publications with this member.
+  member_portrait: Member portrait
+  member_link: Member profile
+  built_with: Built with
+  dark_mode: Toggle dark mode
+  search_placeholder: Search items on this page
+  clear_search: Clear search
+  search_results: "Showing __SHOWN__ of __TOTAL__ results"
+  filtered_orcid: Filtered by member ORCID
+  site_search: Search site with Google
+  published_on: Originally published on
+  updated_on: Last updated on
+  previous_post: Previous post
+  next_post: Next post
+  show_tag: 'Show items with the tag "__TAG__"'
+zh:
+  home: 首页
+  nav_toggle: 展开或收起导航
+  language_switch: 切换语言
+  fallback: 此页面暂未提供中文译文，以下显示英文原文。
+  publications: 论文与成果
+  associated_works: "已关联 __COUNT__ 条正式发表记录"
+  associated_work: "已关联 __COUNT__ 条正式发表记录"
+  view_research: 在论文页面查看
+  no_publications: 暂未收录与该成员关联的正式发表成果。
+  no_orcid: 尚未配置 ORCID，暂不显示关联论文。
+  member_portrait: 成员照片
+  member_link: 成员主页
+  built_with: 基于
+  dark_mode: 切换深色模式
+  search_placeholder: 搜索本页内容
+  clear_search: 清除筛选
+  search_results: "共 __TOTAL__ 条记录，显示 __SHOWN__ 条结果"
+  filtered_orcid: 已按成员 ORCID 筛选
+  site_search: 使用 Google 搜索本站
+  published_on: 首次发布于
+  updated_on: 最近更新于
+  previous_post: 上一篇
+  next_post: 下一篇
+  show_tag: '查看标签为“__TAG__”的内容'
+  types:
+    email:
+      text: 邮箱
+      tooltip: 电子邮箱
+    home-page:
+      text: 个人主页
+      tooltip: 个人主页
+    website:
+      text: 网站
+      tooltip: 打开网站
+    address:
+      text: 地址
+      tooltip: 地址
+    github:
+      text: GitHub
+      tooltip: GitHub 仓库
+    paper:
+      text: 论文
+      tooltip: 查看论文
+    search:
+      text: 搜索
+      tooltip: 搜索
+  button_labels:
+    Full text: 阅读全文
+    Full text · PMC: 全文 · PMC
+    PDF · arXiv: 预印本 PDF · arXiv
+  tags:
+    journal: 期刊论文
+    conference: 会议论文
+    book-chapter: 书籍章节
+    correction: 勘误
+    preprint: 预印本
+    control: 控制
+    planning: 规划
+    robotics: 机器人
+    manufacturing: 制造
+    perception: 感知
+    website-example: 网站示例

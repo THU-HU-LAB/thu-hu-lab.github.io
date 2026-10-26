@@ -6,7 +6,7 @@
 >
   <a
     {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
+      href="{{ include.link | localized_url: page.locale | relative_url | uri_escape }}"
     {% endif %}
     class="feature-image"
     aria-label="{{ include.title | default: "feature link" | regex_strip }}"

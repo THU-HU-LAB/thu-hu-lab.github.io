@@ -13,17 +13,19 @@
 {% if tags.size > 0 or include.repo %}
   <div
     class="tags"
+    data-link="{{ link | localized_url: page.locale | relative_url }}"
     {% if include.repo %}
       data-repo="{{ include.repo | xml_escape }}"
     {% endif %}
   >
     {% for tag in tags %}
       <a
-        href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
+        href="{{ link | localized_url: page.locale | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
+        data-search-tag="{{ tag | xml_escape }}"
+        data-tooltip="{{ "show_tag" | t: page.locale | replace: "__TAG__", tag | xml_escape }}"
       >
-        {{ tag }}
+        {{ tag | localized_tag: page.locale }}
       </a>
     {% endfor %}
   </div>

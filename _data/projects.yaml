@@ -1,4 +1,7 @@
 - title: Precision Motion Control
+  title_zh: "精密运动控制"
+  subtitle_zh: "精密机电系统控制"
+  description_zh: "研究精密与超精密系统的运动控制方法，应用于工件台、平面电机与先进制造装备。"
   subtitle: Control for precision mechatronic systems
   group: featured
   image: images/photo.jpg
@@ -9,6 +12,9 @@
     - manufacturing
 
 - title: Trajectory Planning and Multi-Robot Coordination
+  title_zh: "轨迹规划与多机器人协同"
+  subtitle_zh: "安全协同运动的优化方法"
+  description_zh: "研究面向机床与机器人系统的轨迹规划、路径参数化与协同运动方法。"
   subtitle: Optimization for safe and coordinated motion
   group: featured
   image: images/photo.jpg
@@ -19,6 +25,9 @@
     - robotics
 
 - title: Robotic Perception
+  title_zh: "机器人感知"
+  subtitle_zh: "面向操作任务的位姿估计"
+  description_zh: "研究视觉感知与位姿估计方法，服务于机器人操作、装配与检测任务。"
   subtitle: Pose estimation for manipulation
   image: images/photo.jpg
   link: /research/?search=pose
@@ -28,6 +37,9 @@
     - robotics
 
 - title: Learning for Robotic Manipulation
+  title_zh: "机器人操作学习"
+  subtitle_zh: "面向装配任务的学习与控制"
+  description_zh: "研究机器人技能、操作与装配中的学习方法，连接感知、规划与控制。"
   subtitle: Learning and control for assembly tasks
   image: images/photo.jpg
   link: /research/?search=learning
@@ -37,6 +49,9 @@
     - control
 
 - title: Intelligent Manufacturing Applications
+  title_zh: "智能制造应用"
+  subtitle_zh: "从运动系统到工程应用"
+  description_zh: "面向半导体装备、数控加工与机器人制造，开展控制、规划及机电系统设计研究。"
   subtitle: From motion systems to engineering applications
   image: images/photo.jpg
   link: /research/?search=manufacturing

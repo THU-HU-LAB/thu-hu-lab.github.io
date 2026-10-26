@@ -22,18 +22,20 @@
     {% endfor %}
   {% endif %}
 
-  {% assign published = include.published | date: "%B %d, %Y" %}
-  {% assign updated = include.updated | date: "%B %d, %Y" %}
+  {% assign date_format = "%B %d, %Y" %}
+  {% if page.locale == "zh" %}{% assign date_format = "%Y年%m月%d日" %}{% endif %}
+  {% assign published = include.published | date: date_format %}
+  {% assign updated = include.updated | date: date_format %}
 
   {% if published %}
-    <span data-tooltip="Originally published on">
+    <span data-tooltip="{{ "published_on" | t: page.locale }}">
       {% include icon.html icon="fa-regular fa-calendar" %}
       <span>{{ published }}</span>
     </span>
   {% endif %}
 
   {% if updated and updated != "" and updated != published %}
-    <span data-tooltip="Last updated on">
+    <span data-tooltip="{{ "updated_on" | t: page.locale }}">
       {% include icon.html icon="fa-solid fa-clock-rotate-left" %}
       <span>{{ updated }}</span>
     </span>

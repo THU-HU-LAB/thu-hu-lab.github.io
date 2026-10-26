@@ -13,7 +13,7 @@
       const link = document.createElement("a");
       link.classList.add("icon", "fa-solid", "fa-link", "anchor");
       link.href = "#" + heading.id;
-      link.setAttribute("aria-label", "link to this section");
+      link.setAttribute("aria-label", document.documentElement.lang.startsWith("zh") ? "链接到本节" : "link to this section");
       heading.append(link);
 
       // if first heading in the section, move id to parent section

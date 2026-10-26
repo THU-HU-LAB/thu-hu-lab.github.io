@@ -70,7 +70,7 @@
         .includes(string);
     // check if text matches a tag in element
     const hasTag = (string) =>
-      tagElements.some((tag) => normalizeTag(tag.innerText) === string);
+      tagElements.some((tag) => normalizeTag(tag.dataset?.searchTag || tag.innerText) === string);
 
     // match logic
     return (
@@ -155,14 +155,14 @@
       // show all info boxes
       boxes.forEach((info) => (info.style.display = ""));
 
-      // info template
-      let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      if (getOrcidFilter()) info += "Filtered by member ORCID<br>";
-      info += "<a href='./'>Clear search</a>";
-
-      // set info HTML string
-      boxes.forEach((el) => (el.innerHTML = info));
+      boxes.forEach((el) => {
+        const labels = el.dataset || {};
+        const results = (labels.resultsTemplate || "Showing __SHOWN__ of __TOTAL__ results")
+          .replace("__SHOWN__", x.toLocaleString()).replace("__TOTAL__", n.toLocaleString());
+        el.innerHTML = `${results}<br>` +
+          (getOrcidFilter() ? `${labels.orcidLabel || "Filtered by member ORCID"}<br>` : "") +
+          `<a href='./'>${labels.clearLabel || "Clear search"}</a>`;
+      });
     }
     // if nothing searched
     else {
@@ -176,7 +176,7 @@
     const { tags } = splitQuery(query);
     document.querySelectorAll(tagSelector).forEach((tag) => {
       // set active if tag is in query
-      if (tags.includes(normalizeTag(tag.innerText)))
+      if (tags.includes(normalizeTag(tag.dataset?.searchTag || tag.innerText)))
         tag.setAttribute("data-active", "");
       else tag.removeAttribute("data-active");
     });

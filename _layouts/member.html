@@ -25,21 +25,21 @@ layout: default
 
 {% assign member_orcid = page.links.orcid | default: "" | strip | upcase %}
 
-<h2>Publications</h2>
+<h2>{{ "publications" | t: page.locale }}</h2>
 
 {% if member_orcid != "" %}
   {% assign published_filter = "metadata_verified == true && ['journal', 'conference', 'book-chapter', 'correction'].include?(publication_type)" %}
   {% assign member_papers = site.data.citations | data_filter: published_filter | citations_for_orcid: member_orcid | sort: "date" | reverse %}
   {% capture research_link %}/research/?orcid={{ member_orcid }}{% endcapture %}
   <p class="center">
-    {{ member_papers.size }} associated published works ·
-    <a href="{{ research_link | relative_url | xml_escape }}">View on Research</a>
+    {{ "associated_works" | t: page.locale | replace: "__COUNT__", member_papers.size }} ·
+    <a href="{{ research_link | localized_url: page.locale | relative_url | xml_escape }}">{{ "view_research" | t: page.locale }}</a>
   </p>
   {% for paper in member_papers %}
     {% include citation.html citation=paper %}
   {% else %}
-    <p>No published works have been associated with this member yet.</p>
+    <p>{{ "no_publications" | t: page.locale }}</p>
   {% endfor %}
 {% else %}
-  <p>Add an ORCID iD to associate publications with this member.</p>
+  <p>{{ "no_orcid" | t: page.locale }}</p>
 {% endif %}

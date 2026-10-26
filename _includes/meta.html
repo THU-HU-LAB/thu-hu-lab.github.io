@@ -1,5 +1,7 @@
 {% assign filename = page.path | split: "/" | last %}
-{% if page.name and page.name != filename %}
+{% if page.profile_name %}
+  {% assign title = page.profile_name %}
+{% elsif page.name and page.name != filename %}
   {% assign title = page.name %}
 {% elsif page.title %}
   {% assign title = page.title %}
@@ -20,14 +22,15 @@
 
 {% assign subtitle = site.subtitle %}
 
-{% assign description = page.description | default: site.description %}
+{% assign site_description = site | localized_field: "description", page.locale %}
+{% assign description = page.description | default: site_description %}
 {% if site.subtitle %}
   {% capture description -%}
     {{ site.subtitle }}. {{ description }}
   {%- endcapture %}
 {% endif %}
 {% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
+  {{ page.url | absolute_url }}
 {%- endcapture %}
 
 {% assign description = description | xml_escape %}
@@ -63,7 +66,11 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="{% if page.locale == 'zh' %}zh_CN{% else %}en_US{% endif %}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ page.english_url | absolute_url }}">
+<link rel="alternate" hreflang="zh-CN" href="{{ page.chinese_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ page.english_url | absolute_url }}">
 
 <meta property="twitter:title" content="{{ title }}">
 <meta property="twitter:description" content="{{ description }}">

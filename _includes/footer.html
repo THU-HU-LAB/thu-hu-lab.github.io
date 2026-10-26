@@ -26,7 +26,7 @@
   <div>
     &copy; {{ site.time | date: "%Y" }}
     {{ site.title }}
-    &nbsp; | &nbsp; Built with
+    &nbsp; | &nbsp; {{ 'built_with' | t: page.locale }}
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
@@ -35,8 +35,8 @@
   <input
     type="checkbox"
     class="dark-toggle"
-    data-tooltip="Dark mode"
-    aria-label="toggle dark mode"
+    data-tooltip="{{ 'dark_mode' | t: page.locale }}"
+    aria-label="{{ 'dark_mode' | t: page.locale }}"
     oninput="onDarkToggleChange(event)"
   >
 </footer>

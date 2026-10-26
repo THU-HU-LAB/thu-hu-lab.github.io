@@ -1,23 +1,32 @@
+{% assign explicit_text = include.text %}
+{% assign explicit_tooltip = include.tooltip %}
 {% assign button = include %}
 {% assign button = button | hash_default: site.data.types[include.type] %}
+{% assign button_text = button.text | localized_button_text: page.locale %}
+{% assign button_tooltip = button.tooltip %}
+{% if page.locale == 'zh' %}
+  {% assign translated_type = site.data.i18n.zh.types[include.type] %}
+  {% unless explicit_text %}{% assign button_text = translated_type.text | default: button_text %}{% endunless %}
+  {% unless explicit_tooltip %}{% assign button_tooltip = translated_type.tooltip | default: button_tooltip %}{% endunless %}
+{% endif %}
 
 {% if button.link or button.icon or button.text %}
   <div class="button-wrapper">
     <a
       class="button"
-      href="{{ button.link | replace: "$LINK", button.link | relative_url }}"
+      href="{{ button.link | replace: "$LINK", button.link | localized_url: page.locale | relative_url }}"
       {% if button.tooltip %}
-        data-tooltip="{{ button.tooltip | xml_escape }}"
+        data-tooltip="{{ button_tooltip | xml_escape }}"
       {% endif %}
       data-style="{{ include.style }}"
       {% if include.flip %}
         data-flip
       {% endif %}
-      aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
+      aria-label="{{ button_tooltip | default: button.icon | default: "button" | regex_strip }}"
     >
       {% include icon.html icon=button.icon %}
       {% if button.text and button.text != "" %}
-        <span>{{ button.text }}</span>
+        <span>{{ button_text }}</span>
       {% endif %}
     </a>
   </div>

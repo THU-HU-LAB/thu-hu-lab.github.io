@@ -8,15 +8,18 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign member_name = member | localized_field: "name", page.locale %}
+{% assign member_description = member | localized_field: "description", page.locale %}
+{% assign member_affiliation = member | localized_field: "affiliation", page.locale %}
 
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
+      href="{{ member.url | localized_url: page.locale | relative_url | uri_escape }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" | regex_strip }}"
+    aria-label="{{ member_name | default: "member profile" | regex_strip }}"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
@@ -26,26 +29,26 @@
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
       {% if member.portrait_fit %}style="object-fit: {{ member.portrait_fit }}; object-position: {{ member.portrait_position | default: 'center' }}; {% if member.portrait_padding %}box-sizing: border-box; padding: {{ member.portrait_padding }}; {% endif %}{% if member.portrait_background %}background: {{ member.portrait_background }};{% else %}background-image: url('{{ member.image | relative_url | uri_escape }}'); background-size: cover; background-position: center;{% endif %}"{% endif %}
-      alt="member portrait"
+      alt="{{ member_name | xml_escape }} · {{ "member_portrait" | t: page.locale }}"
       loading="lazy"
       {% include fallback.html %}
     >
 
     {% if member.name %}
       <span class="portrait-name">
-        {{ member.name }}
+        {{ member_name }}
       </span>
     {% endif %}
 
     {% if member.description or type %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {{ member_description | default: type.description }}
       </span>
     {% endif %}
 
     {% if member.affiliation and include.hide_affiliation != true %}
       <span class="portrait-affiliation">
-        {{ member.affiliation }}
+        {{ member_affiliation }}
       </span>
     {% endif %}
   </a>

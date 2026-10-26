@@ -57,3 +57,37 @@ links:
 推送到 `main` 后，现有 Actions 会同步论文并发布网站。这里没有启用额外的定时任务。
 
 模板文档：[Lab Website Template Documentation](https://greene-lab.gitbook.io/lab-website-template-docs)。
+
+## 中英文切换
+
+英文版保留原网址，中文版位于 `/zh/`。导航栏的“中文 | English”切换到当前页面的对应语言，并保留搜索、成员 ORCID 筛选和章节位置。浏览器会记住语言选择，下次从首页访问时使用该语言；直接访问具体页面仍使用链接指定的语言。
+
+| 内容 | 英文 | 中文 |
+| --- | --- | --- |
+| 首页及栏目 | `index.md`、`team/`、`research/` 等 | `zh/index.md`、`zh/team/`、`zh/research/` 等 |
+| 成员资料 | `_members/*.md` 的现有字段和正文 | 同一文件的 `name_zh`、`description_zh`、`affiliation_zh`、`content_zh` |
+| 研究方向卡片 | `_data/projects.yaml` 的现有字段 | 同一条目的 `title_zh`、`subtitle_zh`、`description_zh` |
+| 新闻文章 | `_posts/*.md` 的标题和正文 | 同一文件的 `title_zh`、`content_zh` |
+| 搜索、按钮等公共文案 | `_data/i18n.yaml` 的 `en` | 同一文件的 `zh` |
+
+成员中文简介写在 YAML 开头的 `content_zh: |` 下，每行缩进两个空格。例如：
+
+```yaml
+name: Example Member
+name_zh: 示例成员
+description: Ph.D. Student
+description_zh: 博士生
+affiliation_zh: 清华大学机械工程系
+content_zh: |
+  这里填写中文个人介绍。
+
+  ## 研究方向 {#research-interests}
+
+  - 机器人运动规划
+```
+
+请保留原来的照片、`links.orcid`、邮箱和英文正文。中文成员页由 `_plugins/i18n.rb` 自动生成，不要在 `zh/members/` 复制成员文件。成员顺序统一维护在 `_includes/team-members.html`，中英文同时生效。未填写 `content_zh` 的成员或文章会显示英文原文并提示尚无中文译文。模板的技术演示页也使用此回退方式。
+
+两种语言共用一份论文库，论文标题、作者和出版信息保留原文。中文标签仅翻译显示文字，筛选仍使用稳定的英文标签标识。修改 Markdown 和翻译文本后可以热更新；修改 Ruby 插件或 `_config.yaml` 后需要重启预览进程。
+
+验证：先构建网站，再运行 `python _cite/tests/test_i18n.py --site-dir _site`、`node _cite/tests/test_search.cjs` 和 `node _cite/tests/test_language.cjs`。

@@ -1,0 +1,11 @@
+<span class="language-switcher" aria-label="{{ 'language_switch' | t: page.locale }}">
+  {% if page.locale == 'zh' %}
+    <span lang="zh-CN" aria-current="true">中文</span>
+    <span aria-hidden="true">|</span>
+    <a href="{{ page.english_url | relative_url }}" lang="en" hreflang="en" data-language-switch data-target-locale="en">English</a>
+  {% else %}
+    <a href="{{ page.chinese_url | default: '/zh/' | relative_url }}" lang="zh-CN" hreflang="zh-CN" data-language-switch data-target-locale="zh">中文</a>
+    <span aria-hidden="true">|</span>
+    <span lang="en" aria-current="true">English</span>
+  {% endif %}
+</span>

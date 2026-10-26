@@ -3,12 +3,13 @@
     type="text"
     class="search-input"
     oninput="onSearchInput(this)"
-    placeholder="Search items on this page"
+    placeholder="{{ "search_placeholder" | t: page.locale }}"
+    aria-label="{{ "search_placeholder" | t: page.locale }}"
   />
   <button
     disabled
-    data-tooltip="Clear search"
-    aria-label="clear search"
+    data-tooltip="{{ "clear_search" | t: page.locale }}"
+    aria-label="{{ "clear_search" | t: page.locale }}"
     onclick="onSearchClear()"
   >
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}

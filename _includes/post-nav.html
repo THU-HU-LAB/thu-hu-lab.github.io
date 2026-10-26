@@ -1,17 +1,17 @@
 <div class="post-nav">
   <span>
     {% if include.post.previous %}
-      {% include icon.html icon="fa-solid fa-angle-left" %} Previous post<br>
-      <a href="{{ include.post.previous.url | relative_url }}">
-        {{ include.post.previous.title }}
+      {% include icon.html icon="fa-solid fa-angle-left" %} {{ "previous_post" | t: page.locale }}<br>
+      <a href="{{ include.post.previous.url | localized_url: page.locale | relative_url }}">
+        {{ include.post.previous | localized_field: "title", page.locale }}
       </a>
     {% endif %}
   </span>
   <span>
     {% if include.post.next %}
-      Next post {% include icon.html icon="fa-solid fa-angle-right" %}<br>
-      <a href="{{ include.post.next.url | relative_url }}">
-        {{ include.post.next.title }}
+      {{ "next_post" | t: page.locale }} {% include icon.html icon="fa-solid fa-angle-right" %}<br>
+      <a href="{{ include.post.next.url | localized_url: page.locale | relative_url }}">
+        {{ include.post.next | localized_field: "title", page.locale }}
       </a>
     {% endif %}
   </span>

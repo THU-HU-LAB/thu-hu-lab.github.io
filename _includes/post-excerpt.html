@@ -10,8 +10,9 @@
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
-    {% assign url = post.url | relative_url | uri_escape %}
-    {% assign title = post.title %}
+    {% assign url = post.url | localized_url: page.locale | relative_url | uri_escape %}
+    {% assign title = post | localized_field: "title", page.locale %}
+    {% assign post_content = post | localized_field: "content", page.locale %}
     {% assign image = post.image | relative_url | uri_escape %}
 
     {% if image %}
@@ -40,14 +41,14 @@
         tags=post.tags
       %}
 
-      {% assign excerpt = post.content
+      {% assign excerpt = post_content
         | default: ""
         | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
         | default: post.excerpt
         | default: ""
         | strip_html
       %}
-      {% assign search = post.content
+      {% assign search = post_content
         | strip_html
         | strip_newlines
         | regex_strip

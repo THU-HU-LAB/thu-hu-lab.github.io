@@ -11,17 +11,7 @@ HU-LAB brings together researchers and students in the Department of Mechanical 
 
 {% include section.html %}
 
-{% include portrait.html lookup="huchuxiong" hide_affiliation=true %}
-{% include portrait.html lookup="wangze" hide_affiliation=true %}
-{% include portrait.html lookup="jinzhao" hide_affiliation=true %}
-{% include portrait.html lookup="yanjizhou" hide_affiliation=true %}
-{% include portrait.html lookup="yujichuan" hide_affiliation=true %}
-{% include portrait.html lookup="wangyunan" hide_affiliation=true %}
-{% include portrait.html lookup="hezhirui" hide_affiliation=true %}
-{% include portrait.html lookup="zhaoyueyao" hide_affiliation=true %}
-{% include portrait.html lookup="xiangjinlai" hide_affiliation=true %}
-{% include portrait.html lookup="xurunze" hide_affiliation=true %}
-{% include portrait.html lookup="chenjun" hide_affiliation=true %}
+{% include team-members.html %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
