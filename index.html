@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="en" data-locale="en" data-home="/" data-chinese-home="/zh/" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -11,6 +11,7 @@
 -->
 
   
+
 
 
 
@@ -57,13 +58,17 @@
 <meta property="og:title" content="">
 <meta property="og:site_title" content="HU-LAB">
 <meta property="og:description" content="HU-LAB at Tsinghua University conducts research in precision motion control, robotics, trajectory planning, and intelligent manufacturing.">
-<meta property="og:url" content="https://thu-hu-lab.github.io">
+<meta property="og:url" content="https://thu-hu-lab.github.io/">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
+<link rel="canonical" href="https://thu-hu-lab.github.io/">
+<link rel="alternate" hreflang="en" href="https://thu-hu-lab.github.io/">
+<link rel="alternate" hreflang="zh-CN" href="https://thu-hu-lab.github.io/zh/">
+<link rel="alternate" hreflang="x-default" href="https://thu-hu-lab.github.io/">
 
 <meta property="twitter:title" content="">
 <meta property="twitter:description" content="HU-LAB at Tsinghua University conducts research in precision motion control, robotics, trajectory planning, and intelligent manufacturing.">
-<meta property="twitter:url" content="https://thu-hu-lab.github.io">
+<meta property="twitter:url" content="https://thu-hu-lab.github.io/">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -84,7 +89,7 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/favicon.png" }
     },
-    "url": "https://thu-hu-lab.github.io"
+    "url": "https://thu-hu-lab.github.io/"
   }
 </script>
 
@@ -357,19 +362,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/anchors.js?v=1793028838"></script>
+  <script src="/_scripts/anchors.js?v=1793033558"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1793028838"></script>
+  <script src="/_scripts/dark-mode.js?v=1793033558"></script>
 
-  <script src="/_scripts/fetch-tags.js?v=1793028838"></script>
+  <script src="/_scripts/fetch-tags.js?v=1793033558"></script>
 
-  <script src="/_scripts/search.js?v=1793028838"></script>
+  <script src="/_scripts/language.js?v=1793033558"></script>
 
-  <script src="/_scripts/site-search.js?v=1793028838"></script>
+  <script src="/_scripts/search.js?v=1793033558"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1793028838"></script>
+  <script src="/_scripts/site-search.js?v=1793033558"></script>
 
-  <script src="/_scripts/tooltip.js?v=1793028838"></script>
+  <script src="/_scripts/table-wrap.js?v=1793033558"></script>
+
+  <script src="/_scripts/tooltip.js?v=1793033558"></script>
 
 
 </head>
@@ -459,7 +466,7 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show or hide navigation">
 
   <nav>
     
@@ -494,10 +501,19 @@
         </a>
       
     
+    <span class="language-switcher" aria-label="Switch language">
+  
+    <a href="/zh/" lang="zh-CN" hreflang="zh-CN" data-language-switch data-target-locale="zh">中文</a>
+    <span aria-hidden="true">|</span>
+    <span lang="en" aria-current="true">English</span>
+  
+</span>
+
   </nav>
 </header>
 
     <main>
+      
       <!--
   modify main content of page:
   - add section breaks
@@ -552,7 +568,7 @@
 <h2 id="highlights">Highlights</h2>
 
 <div class="feature">
-  <a href="/research" class="feature-image" aria-label="Our Research">
+  <a href="/research/" class="feature-image" aria-label="Our Research">
     <img src="/images/photo.jpg" loading="lazy" alt="Our Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
@@ -563,7 +579,7 @@
 <p>Explore our work on precision motion control, trajectory planning, robotic perception, and safe coordination of multiple robots. Our publications connect control and optimization methods with applications in advanced manufacturing and robotics.</p>
 
 <div class="button-wrapper">
-    <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+    <a class="button" href="/research/" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
         <span>See our publications</span>
@@ -576,7 +592,7 @@
 </div>
 
 <div class="feature" data-flip="">
-  <a href="/projects" class="feature-image" aria-label="Our Projects">
+  <a href="/projects/" class="feature-image" aria-label="Our Projects">
     <img src="/images/photo.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
@@ -587,7 +603,7 @@
 <p>Our research spans semiconductor manufacturing equipment, CNC machining, robotic manipulation and assembly, and intelligent railway maintenance. Learn about the research directions that bring these applications together.</p>
 
 <div class="button-wrapper">
-    <a class="button" href="/projects" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+    <a class="button" href="/projects/" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
         <span>Browse our projects</span>
@@ -600,7 +616,7 @@
 </div>
 
 <div class="feature">
-  <a href="/team" class="feature-image" aria-label="Our Team">
+  <a href="/team/" class="feature-image" aria-label="Our Team">
     <img src="/images/photo.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
@@ -611,7 +627,7 @@
 <p>Meet the researchers and students of HU-LAB at Tsinghua University. Visit individual profiles to learn about their research interests and associated publications.</p>
 
 <div class="button-wrapper">
-    <a class="button" href="/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+    <a class="button" href="/team/" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
         <span>Meet our team</span>
@@ -644,6 +660,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://github.com/THU-HU-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
@@ -664,7 +685,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Toggle dark mode" aria-label="Toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

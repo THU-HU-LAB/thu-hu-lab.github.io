@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="en" data-locale="en" data-home="/" data-chinese-home="/zh/" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -11,6 +11,7 @@
 -->
 
   
+
 
 
 
@@ -57,13 +58,17 @@
 <meta property="og:title" content="Projects">
 <meta property="og:site_title" content="HU-LAB">
 <meta property="og:description" content="HU-LAB at Tsinghua University conducts research in precision motion control, robotics, trajectory planning, and intelligent manufacturing.">
-<meta property="og:url" content="https://thu-hu-lab.github.io">
+<meta property="og:url" content="https://thu-hu-lab.github.io/projects/">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
+<link rel="canonical" href="https://thu-hu-lab.github.io/projects/">
+<link rel="alternate" hreflang="en" href="https://thu-hu-lab.github.io/projects/">
+<link rel="alternate" hreflang="zh-CN" href="https://thu-hu-lab.github.io/zh/projects/">
+<link rel="alternate" hreflang="x-default" href="https://thu-hu-lab.github.io/projects/">
 
 <meta property="twitter:title" content="Projects">
 <meta property="twitter:description" content="HU-LAB at Tsinghua University conducts research in precision motion control, robotics, trajectory planning, and intelligent manufacturing.">
-<meta property="twitter:url" content="https://thu-hu-lab.github.io">
+<meta property="twitter:url" content="https://thu-hu-lab.github.io/projects/">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -84,7 +89,7 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/favicon.png" }
     },
-    "url": "https://thu-hu-lab.github.io"
+    "url": "https://thu-hu-lab.github.io/projects/"
   }
 </script>
 
@@ -357,19 +362,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/anchors.js?v=1793028838"></script>
+  <script src="/_scripts/anchors.js?v=1793033558"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1793028838"></script>
+  <script src="/_scripts/dark-mode.js?v=1793033558"></script>
 
-  <script src="/_scripts/fetch-tags.js?v=1793028838"></script>
+  <script src="/_scripts/fetch-tags.js?v=1793033558"></script>
 
-  <script src="/_scripts/search.js?v=1793028838"></script>
+  <script src="/_scripts/language.js?v=1793033558"></script>
 
-  <script src="/_scripts/site-search.js?v=1793028838"></script>
+  <script src="/_scripts/search.js?v=1793033558"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1793028838"></script>
+  <script src="/_scripts/site-search.js?v=1793033558"></script>
 
-  <script src="/_scripts/tooltip.js?v=1793028838"></script>
+  <script src="/_scripts/table-wrap.js?v=1793033558"></script>
+
+  <script src="/_scripts/tooltip.js?v=1793033558"></script>
 
 
 </head>
@@ -459,7 +466,7 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show or hide navigation">
 
   <nav>
     
@@ -494,10 +501,19 @@
         </a>
       
     
+    <span class="language-switcher" aria-label="Switch language">
+  
+    <a href="/zh/projects/" lang="zh-CN" hreflang="zh-CN" data-language-switch data-target-locale="zh">中文</a>
+    <span aria-hidden="true">|</span>
+    <span lang="en" aria-current="true">English</span>
+  
+</span>
+
   </nav>
 </header>
 
     <main>
+      
       <!--
   modify main content of page:
   - add section breaks
@@ -520,31 +536,31 @@
 
 <p>Explore the research themes behind our work in precision engineering, robotics, and intelligent manufacturing. Each topic links to our publication library, where you can search for related methods and applications.</p>
 
-<div class="tags">
+<div class="tags" data-link="/projects/">
     
-      <a href="/projects/?search=%22tag:%20control%22" class="tag" data-tooltip='Show items with the tag "control"'>
+      <a href="/projects/?search=%22tag:%20control%22" class="tag" data-search-tag="control" data-tooltip='Show items with the tag "control"'>
         control
       </a>
     
-      <a href="/projects/?search=%22tag:%20planning%22" class="tag" data-tooltip='Show items with the tag "planning"'>
+      <a href="/projects/?search=%22tag:%20planning%22" class="tag" data-search-tag="planning" data-tooltip='Show items with the tag "planning"'>
         planning
       </a>
     
-      <a href="/projects/?search=%22tag:%20robotics%22" class="tag" data-tooltip='Show items with the tag "robotics"'>
+      <a href="/projects/?search=%22tag:%20robotics%22" class="tag" data-search-tag="robotics" data-tooltip='Show items with the tag "robotics"'>
         robotics
       </a>
     
-      <a href="/projects/?search=%22tag:%20manufacturing%22" class="tag" data-tooltip='Show items with the tag "manufacturing"'>
+      <a href="/projects/?search=%22tag:%20manufacturing%22" class="tag" data-search-tag="manufacturing" data-tooltip='Show items with the tag "manufacturing"'>
         manufacturing
       </a>
     
-      <a href="/projects/?search=%22tag:%20perception%22" class="tag" data-tooltip='Show items with the tag "perception"'>
+      <a href="/projects/?search=%22tag:%20perception%22" class="tag" data-search-tag="perception" data-tooltip='Show items with the tag "perception"'>
         perception
       </a>
     
   </div>
 
-<div class="search-info"></div>
+<div class="search-info" data-results-template="Showing __SHOWN__ of __TOTAL__ results" data-orcid-label="Filtered by member ORCID" data-clear-label="Clear search" aria-live="polite"></div>
   </section>
 
   
@@ -587,13 +603,13 @@
       
 
 
-  <div class="tags">
+  <div class="tags" data-link="/projects/">
     
-      <a href="/projects/?search=%22tag:%20control%22" class="tag" data-tooltip='Show items with the tag "control"'>
+      <a href="/projects/?search=%22tag:%20control%22" class="tag" data-search-tag="control" data-tooltip='Show items with the tag "control"'>
         control
       </a>
     
-      <a href="/projects/?search=%22tag:%20manufacturing%22" class="tag" data-tooltip='Show items with the tag "manufacturing"'>
+      <a href="/projects/?search=%22tag:%20manufacturing%22" class="tag" data-search-tag="manufacturing" data-tooltip='Show items with the tag "manufacturing"'>
         manufacturing
       </a>
     
@@ -631,13 +647,13 @@
       
 
 
-  <div class="tags">
+  <div class="tags" data-link="/projects/">
     
-      <a href="/projects/?search=%22tag:%20planning%22" class="tag" data-tooltip='Show items with the tag "planning"'>
+      <a href="/projects/?search=%22tag:%20planning%22" class="tag" data-search-tag="planning" data-tooltip='Show items with the tag "planning"'>
         planning
       </a>
     
-      <a href="/projects/?search=%22tag:%20robotics%22" class="tag" data-tooltip='Show items with the tag "robotics"'>
+      <a href="/projects/?search=%22tag:%20robotics%22" class="tag" data-search-tag="robotics" data-tooltip='Show items with the tag "robotics"'>
         robotics
       </a>
     
@@ -689,13 +705,13 @@
       
 
 
-  <div class="tags">
+  <div class="tags" data-link="/projects/">
     
-      <a href="/projects/?search=%22tag:%20perception%22" class="tag" data-tooltip='Show items with the tag "perception"'>
+      <a href="/projects/?search=%22tag:%20perception%22" class="tag" data-search-tag="perception" data-tooltip='Show items with the tag "perception"'>
         perception
       </a>
     
-      <a href="/projects/?search=%22tag:%20robotics%22" class="tag" data-tooltip='Show items with the tag "robotics"'>
+      <a href="/projects/?search=%22tag:%20robotics%22" class="tag" data-search-tag="robotics" data-tooltip='Show items with the tag "robotics"'>
         robotics
       </a>
     
@@ -733,13 +749,13 @@
       
 
 
-  <div class="tags">
+  <div class="tags" data-link="/projects/">
     
-      <a href="/projects/?search=%22tag:%20robotics%22" class="tag" data-tooltip='Show items with the tag "robotics"'>
+      <a href="/projects/?search=%22tag:%20robotics%22" class="tag" data-search-tag="robotics" data-tooltip='Show items with the tag "robotics"'>
         robotics
       </a>
     
-      <a href="/projects/?search=%22tag:%20control%22" class="tag" data-tooltip='Show items with the tag "control"'>
+      <a href="/projects/?search=%22tag:%20control%22" class="tag" data-search-tag="control" data-tooltip='Show items with the tag "control"'>
         control
       </a>
     
@@ -777,13 +793,13 @@
       
 
 
-  <div class="tags">
+  <div class="tags" data-link="/projects/">
     
-      <a href="/projects/?search=%22tag:%20manufacturing%22" class="tag" data-tooltip='Show items with the tag "manufacturing"'>
+      <a href="/projects/?search=%22tag:%20manufacturing%22" class="tag" data-search-tag="manufacturing" data-tooltip='Show items with the tag "manufacturing"'>
         manufacturing
       </a>
     
-      <a href="/projects/?search=%22tag:%20planning%22" class="tag" data-tooltip='Show items with the tag "planning"'>
+      <a href="/projects/?search=%22tag:%20planning%22" class="tag" data-search-tag="planning" data-tooltip='Show items with the tag "planning"'>
         planning
       </a>
     
@@ -815,6 +831,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://github.com/THU-HU-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
@@ -835,7 +856,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Toggle dark mode" aria-label="Toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

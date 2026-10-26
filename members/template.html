@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="en" data-locale="en" data-home="/" data-chinese-home="/zh/" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -11,6 +11,7 @@
 -->
 
   
+
 
 
 
@@ -57,13 +58,17 @@
 <meta property="og:title" content="Chuxiong Hu">
 <meta property="og:site_title" content="HU-LAB">
 <meta property="og:description" content="Tenured Professor and Ph.D. Supervisor">
-<meta property="og:url" content="https://thu-hu-lab.github.io">
+<meta property="og:url" content="https://thu-hu-lab.github.io/members/template.html">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
+<link rel="canonical" href="https://thu-hu-lab.github.io/members/template.html">
+<link rel="alternate" hreflang="en" href="https://thu-hu-lab.github.io/members/template.html">
+<link rel="alternate" hreflang="zh-CN" href="https://thu-hu-lab.github.io/zh/members/template.html">
+<link rel="alternate" hreflang="x-default" href="https://thu-hu-lab.github.io/members/template.html">
 
 <meta property="twitter:title" content="Chuxiong Hu">
 <meta property="twitter:description" content="Tenured Professor and Ph.D. Supervisor">
-<meta property="twitter:url" content="https://thu-hu-lab.github.io">
+<meta property="twitter:url" content="https://thu-hu-lab.github.io/members/template.html">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -84,7 +89,7 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/favicon.png" }
     },
-    "url": "https://thu-hu-lab.github.io"
+    "url": "https://thu-hu-lab.github.io/members/template.html"
   }
 </script>
 
@@ -303,19 +308,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/anchors.js?v=1793028838"></script>
+  <script src="/_scripts/anchors.js?v=1793033558"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1793028838"></script>
+  <script src="/_scripts/dark-mode.js?v=1793033558"></script>
 
-  <script src="/_scripts/fetch-tags.js?v=1793028838"></script>
+  <script src="/_scripts/fetch-tags.js?v=1793033558"></script>
 
-  <script src="/_scripts/search.js?v=1793028838"></script>
+  <script src="/_scripts/language.js?v=1793033558"></script>
 
-  <script src="/_scripts/site-search.js?v=1793028838"></script>
+  <script src="/_scripts/search.js?v=1793033558"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1793028838"></script>
+  <script src="/_scripts/site-search.js?v=1793033558"></script>
 
-  <script src="/_scripts/tooltip.js?v=1793028838"></script>
+  <script src="/_scripts/table-wrap.js?v=1793033558"></script>
+
+  <script src="/_scripts/tooltip.js?v=1793033558"></script>
 
 
 <script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
@@ -406,7 +413,7 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show or hide navigation">
 
   <nav>
     
@@ -441,10 +448,19 @@
         </a>
       
     
+    <span class="language-switcher" aria-label="Switch language">
+  
+    <a href="/zh/members/template.html" lang="zh-CN" hreflang="zh-CN" data-language-switch data-target-locale="zh">中文</a>
+    <span aria-hidden="true">|</span>
+    <span lang="en" aria-current="true">English</span>
+  
+</span>
+
   </nav>
 </header>
 
     <main>
+      
       <!--
   modify main content of page:
   - add section breaks
@@ -470,7 +486,7 @@
       <i class="icon fa-solid fa-microscope"></i>
     
 
-    <img src="/images/members/huchuxiong.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/members/huchuxiong.jpg" class="portrait-image" alt="Chuxiong Hu · Member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -503,6 +519,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="mailto:cxhu@tsinghua.edu.cn" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
@@ -520,6 +541,11 @@
     
     
     
+
+
+
+
+
 
 
 
@@ -615,9 +641,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -668,9 +694,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -722,6 +748,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://www.nature.com/articles/s41597-026-08585-2" data-tooltip="Website" data-style="bare" aria-label="Website">
       <i class="icon fa-solid fa-globe"></i>
@@ -734,6 +765,11 @@
 
             
               
+
+
+
+
+
 
 
 
@@ -755,9 +791,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -808,9 +844,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -861,9 +897,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -914,9 +950,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -967,9 +1003,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1020,9 +1056,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1073,9 +1109,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -1126,9 +1162,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1179,9 +1215,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1232,9 +1268,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1285,9 +1321,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1338,9 +1374,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1391,9 +1427,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1445,6 +1481,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://arxiv.org/pdf/2404.08943v4" data-tooltip="Download arXiv preprint PDF" data-style="bare" aria-label="Download arXiv preprint PDF">
       <i class="icon fa-solid fa-file-pdf"></i>
@@ -1463,9 +1504,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1516,9 +1557,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1569,9 +1610,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1622,9 +1663,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1675,9 +1716,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1728,9 +1769,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1781,9 +1822,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1834,9 +1875,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1887,9 +1928,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -1940,9 +1981,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -1994,6 +2035,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://arxiv.org/pdf/2403.17675v4" data-tooltip="Download arXiv preprint PDF" data-style="bare" aria-label="Download arXiv preprint PDF">
       <i class="icon fa-solid fa-file-pdf"></i>
@@ -2012,9 +2058,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2065,9 +2111,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -2118,9 +2164,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2171,9 +2217,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2224,9 +2270,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2277,9 +2323,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2330,9 +2376,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2384,6 +2430,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://arxiv.org/pdf/2311.07039v4" data-tooltip="Download arXiv preprint PDF" data-style="bare" aria-label="Download arXiv preprint PDF">
       <i class="icon fa-solid fa-file-pdf"></i>
@@ -2402,9 +2453,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2455,9 +2506,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -2508,9 +2559,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2561,9 +2612,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2615,6 +2666,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://arxiv.org/pdf/2309.06835v1" data-tooltip="Download arXiv preprint PDF" data-style="bare" aria-label="Download arXiv preprint PDF">
       <i class="icon fa-solid fa-file-pdf"></i>
@@ -2633,9 +2689,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2686,9 +2742,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2739,9 +2795,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2792,9 +2848,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -2845,9 +2901,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -2898,9 +2954,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -2951,9 +3007,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -3004,9 +3060,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3057,9 +3113,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -3110,9 +3166,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -3163,9 +3219,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3216,9 +3272,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3269,9 +3325,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3322,9 +3378,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3375,9 +3431,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3428,9 +3484,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3481,9 +3537,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3534,9 +3590,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3587,9 +3643,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3641,6 +3697,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10870059/" data-tooltip="Open official PMC full text" data-style="bare" aria-label="Open official PMC full text">
       <i class="icon fa-solid fa-file-lines"></i>
@@ -3659,9 +3720,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3713,6 +3774,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://arxiv.org/pdf/2310.07207v1" data-tooltip="Download arXiv preprint PDF" data-style="bare" aria-label="Download arXiv preprint PDF">
       <i class="icon fa-solid fa-file-pdf"></i>
@@ -3731,9 +3797,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -3784,9 +3850,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -3837,9 +3903,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -3890,9 +3956,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3943,9 +4009,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -3996,9 +4062,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -4049,9 +4115,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -4102,9 +4168,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -4155,9 +4221,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4208,9 +4274,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -4262,6 +4328,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10625119/" data-tooltip="Open official PMC full text" data-style="bare" aria-label="Open official PMC full text">
       <i class="icon fa-solid fa-file-lines"></i>
@@ -4280,9 +4351,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4333,9 +4404,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4386,9 +4457,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4439,9 +4510,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -4493,6 +4564,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9932583/" data-tooltip="Open official PMC full text" data-style="bare" aria-label="Open official PMC full text">
       <i class="icon fa-solid fa-file-lines"></i>
@@ -4511,9 +4587,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4564,9 +4640,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4617,9 +4693,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4670,9 +4746,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4723,9 +4799,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4776,9 +4852,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4829,9 +4905,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4882,9 +4958,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4935,9 +5011,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -4988,9 +5064,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -5041,9 +5117,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5094,9 +5170,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5147,9 +5223,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5200,9 +5276,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5253,9 +5329,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5306,9 +5382,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -5359,9 +5435,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -5412,9 +5488,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -5465,9 +5541,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -5518,9 +5594,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5571,9 +5647,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5624,9 +5700,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5677,9 +5753,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5730,9 +5806,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5784,6 +5860,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9009116/" data-tooltip="Open official PMC full text" data-style="bare" aria-label="Open official PMC full text">
       <i class="icon fa-solid fa-file-lines"></i>
@@ -5802,9 +5883,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5855,9 +5936,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5908,9 +5989,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -5961,9 +6042,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6014,9 +6095,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -6067,9 +6148,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6120,9 +6201,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6173,9 +6254,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6226,9 +6307,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6279,9 +6360,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -6332,9 +6413,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6385,9 +6466,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -6438,9 +6519,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -6491,9 +6572,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6544,9 +6625,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6597,9 +6678,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6650,9 +6731,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6703,9 +6784,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6756,9 +6837,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6809,9 +6890,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20correction%22" class="tag" data-tooltip='Show items with the tag "correction"'>
+      <a href="/research/?search=%22tag:%20correction%22" class="tag" data-search-tag="correction" data-tooltip='Show items with the tag "correction"'>
         correction
       </a>
     
@@ -6862,9 +6943,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6915,9 +6996,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -6968,9 +7049,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7021,9 +7102,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7074,9 +7155,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -7127,9 +7208,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7180,9 +7261,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7233,9 +7314,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20book-chapter%22" class="tag" data-tooltip='Show items with the tag "book-chapter"'>
+      <a href="/research/?search=%22tag:%20book-chapter%22" class="tag" data-search-tag="book-chapter" data-tooltip='Show items with the tag "book-chapter"'>
         book-chapter
       </a>
     
@@ -7286,9 +7367,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7339,9 +7420,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7392,9 +7473,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7445,9 +7526,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7499,6 +7580,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6566451/" data-tooltip="Open official PMC full text" data-style="bare" aria-label="Open official PMC full text">
       <i class="icon fa-solid fa-file-lines"></i>
@@ -7517,9 +7603,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7570,9 +7656,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7623,9 +7709,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7676,9 +7762,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7729,9 +7815,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7782,9 +7868,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7835,9 +7921,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -7888,9 +7974,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -7941,9 +8027,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -7994,9 +8080,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8047,9 +8133,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8100,9 +8186,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8153,9 +8239,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8206,9 +8292,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8259,9 +8345,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -8312,9 +8398,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8365,9 +8451,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8418,9 +8504,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8471,9 +8557,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8524,9 +8610,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8577,9 +8663,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8630,9 +8716,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -8683,9 +8769,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -8736,9 +8822,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8789,9 +8875,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8842,9 +8928,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8895,9 +8981,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -8948,9 +9034,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9001,9 +9087,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9054,9 +9140,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -9107,9 +9193,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9160,9 +9246,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -9213,9 +9299,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -9266,9 +9352,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -9319,9 +9405,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9372,9 +9458,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9425,9 +9511,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20book-chapter%22" class="tag" data-tooltip='Show items with the tag "book-chapter"'>
+      <a href="/research/?search=%22tag:%20book-chapter%22" class="tag" data-search-tag="book-chapter" data-tooltip='Show items with the tag "book-chapter"'>
         book-chapter
       </a>
     
@@ -9478,9 +9564,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -9531,9 +9617,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9585,6 +9671,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://www.euspen.eu/knowledge-base/ICE16-P9.03.pdf" data-tooltip="Download euspen conference paper PDF" data-style="bare" aria-label="Download euspen conference paper PDF">
       <i class="icon fa-solid fa-file-pdf"></i>
@@ -9603,9 +9694,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -9656,9 +9747,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9709,9 +9800,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9762,9 +9853,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9815,9 +9906,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -9868,9 +9959,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -9921,9 +10012,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -9974,9 +10065,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -10027,9 +10118,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10080,9 +10171,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10133,9 +10224,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10186,9 +10277,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -10239,9 +10330,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -10292,9 +10383,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10345,9 +10436,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -10398,9 +10489,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -10451,9 +10542,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10504,9 +10595,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10557,9 +10648,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10610,9 +10701,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10663,9 +10754,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10716,9 +10807,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10769,9 +10860,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -10822,9 +10913,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10875,9 +10966,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10928,9 +11019,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -10981,9 +11072,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -11034,9 +11125,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -11087,9 +11178,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11140,9 +11231,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11193,9 +11284,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11246,9 +11337,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11299,9 +11390,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -11352,9 +11443,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -11405,9 +11496,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -11458,9 +11549,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11511,9 +11602,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11564,9 +11655,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -11617,9 +11708,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="/research/?search=%22tag:%20journal%22" class="tag" data-search-tag="journal" data-tooltip='Show items with the tag "journal"'>
         journal
       </a>
     
@@ -11670,9 +11761,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11723,9 +11814,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11776,9 +11867,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11829,9 +11920,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11882,9 +11973,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11935,9 +12026,9 @@
           
 
 
-  <div class="tags">
+  <div class="tags" data-link="/research/">
     
-      <a href="?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="/research/?search=%22tag:%20conference%22" class="tag" data-search-tag="conference" data-tooltip='Show items with the tag "conference"'>
         conference
       </a>
     
@@ -11970,6 +12061,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://github.com/THU-HU-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
@@ -11990,7 +12086,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Toggle dark mode" aria-label="Toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

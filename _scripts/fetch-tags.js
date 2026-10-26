@@ -20,7 +20,7 @@
 
       // filter out tags already present in row
       let existing = [...row.querySelectorAll(".tag")].map((tag) =>
-        window.normalizeTag(tag.innerText)
+        window.normalizeTag(tag.dataset.searchTag || tag.innerText)
       );
       tags = tags.filter((tag) => !existing.includes(normalizeTag(tag)));
 
@@ -28,9 +28,11 @@
       for (const tag of tags) {
         const a = document.createElement("a");
         a.classList.add("tag");
-        a.innerHTML = tag;
+        a.textContent = tag;
+        a.dataset.searchTag = tag;
         a.href = `${link}?search="tag: ${tag}"`;
-        a.dataset.tooltip = `Show items with the tag "${tag}"`;
+        a.dataset.tooltip = document.documentElement.lang.startsWith("zh")
+          ? `查看标签为“${tag}”的内容` : `Show items with the tag "${tag}"`;
         row.append(a);
       }
 

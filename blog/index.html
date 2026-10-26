@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="en" data-locale="en" data-home="/" data-chinese-home="/zh/" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -11,6 +11,7 @@
 -->
 
   
+
 
 
 
@@ -57,13 +58,17 @@
 <meta property="og:title" content="Blog">
 <meta property="og:site_title" content="HU-LAB">
 <meta property="og:description" content="HU-LAB at Tsinghua University conducts research in precision motion control, robotics, trajectory planning, and intelligent manufacturing.">
-<meta property="og:url" content="https://thu-hu-lab.github.io">
+<meta property="og:url" content="https://thu-hu-lab.github.io/blog/">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
+<link rel="canonical" href="https://thu-hu-lab.github.io/blog/">
+<link rel="alternate" hreflang="en" href="https://thu-hu-lab.github.io/blog/">
+<link rel="alternate" hreflang="zh-CN" href="https://thu-hu-lab.github.io/zh/blog/">
+<link rel="alternate" hreflang="x-default" href="https://thu-hu-lab.github.io/blog/">
 
 <meta property="twitter:title" content="Blog">
 <meta property="twitter:description" content="HU-LAB at Tsinghua University conducts research in precision motion control, robotics, trajectory planning, and intelligent manufacturing.">
-<meta property="twitter:url" content="https://thu-hu-lab.github.io">
+<meta property="twitter:url" content="https://thu-hu-lab.github.io/blog/">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -84,7 +89,7 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/favicon.png" }
     },
-    "url": "https://thu-hu-lab.github.io"
+    "url": "https://thu-hu-lab.github.io/blog/"
   }
 </script>
 
@@ -357,19 +362,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/anchors.js?v=1793028838"></script>
+  <script src="/_scripts/anchors.js?v=1793033558"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1793028838"></script>
+  <script src="/_scripts/dark-mode.js?v=1793033558"></script>
 
-  <script src="/_scripts/fetch-tags.js?v=1793028838"></script>
+  <script src="/_scripts/fetch-tags.js?v=1793033558"></script>
 
-  <script src="/_scripts/search.js?v=1793028838"></script>
+  <script src="/_scripts/language.js?v=1793033558"></script>
 
-  <script src="/_scripts/site-search.js?v=1793028838"></script>
+  <script src="/_scripts/search.js?v=1793033558"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1793028838"></script>
+  <script src="/_scripts/site-search.js?v=1793033558"></script>
 
-  <script src="/_scripts/tooltip.js?v=1793028838"></script>
+  <script src="/_scripts/table-wrap.js?v=1793033558"></script>
+
+  <script src="/_scripts/tooltip.js?v=1793033558"></script>
 
 
 </head>
@@ -459,7 +466,7 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show or hide navigation">
 
   <nav>
     
@@ -494,10 +501,19 @@
         </a>
       
     
+    <span class="language-switcher" aria-label="Switch language">
+  
+    <a href="/zh/blog/" lang="zh-CN" hreflang="zh-CN" data-language-switch data-target-locale="zh">中文</a>
+    <span aria-hidden="true">|</span>
+    <span lang="en" aria-current="true">English</span>
+  
+</span>
+
   </nav>
 </header>
 
     <main>
+      
       <!--
   modify main content of page:
   - add section breaks
@@ -533,26 +549,27 @@
 -->
 
 <div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page" aria-label="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="Clear search" onclick="onSearchClear()">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
 </div>
 
-<div class="tags">
+<div class="tags" data-link="/blog/">
     
-      <a href="/blog/?search=%22tag:%20website-example%22" class="tag" data-tooltip='Show items with the tag "website-example"'>
+      <a href="/blog/?search=%22tag:%20website-example%22" class="tag" data-search-tag="website-example" data-tooltip='Show items with the tag "website-example"'>
         website-example
       </a>
     
   </div>
 
-<div class="search-info"></div>
+<div class="search-info" data-results-template="Showing __SHOWN__ of __TOTAL__ results" data-orcid-label="Filtered by member ORCID" data-clear-label="Clear search" aria-live="polite"></div>
 
 <h3 id="2023" data-search-heading="">2023</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
+    
     
     
     
@@ -569,6 +586,8 @@
       <div class="post-info">
   
 
+  
+  
   
   
 
@@ -591,9 +610,9 @@
   
 
 
-  <div class="tags">
+  <div class="tags" data-link="/blog/">
     
-      <a href="/blog?search=%22tag:%20website-example%22" class="tag" data-tooltip='Show items with the tag "website-example"'>
+      <a href="/blog/?search=%22tag:%20website-example%22" class="tag" data-search-tag="website-example" data-tooltip='Show items with the tag "website-example"'>
         website-example
       </a>
     
@@ -620,6 +639,7 @@
     
     
     
+    
 
     
 
@@ -629,6 +649,8 @@
       <div class="post-info">
   
 
+  
+  
   
   
 
@@ -651,9 +673,9 @@
   
 
 
-  <div class="tags">
+  <div class="tags" data-link="/blog/">
     
-      <a href="/blog?search=%22tag:%20website-example%22" class="tag" data-tooltip='Show items with the tag "website-example"'>
+      <a href="/blog/?search=%22tag:%20website-example%22" class="tag" data-search-tag="website-example" data-tooltip='Show items with the tag "website-example"'>
         website-example
       </a>
     
@@ -680,6 +702,7 @@
     
     
     
+    
 
     
 
@@ -689,6 +712,8 @@
       <div class="post-info">
   
 
+  
+  
   
   
 
@@ -711,9 +736,9 @@
   
 
 
-  <div class="tags">
+  <div class="tags" data-link="/blog/">
     
-      <a href="/blog?search=%22tag:%20website-example%22" class="tag" data-tooltip='Show items with the tag "website-example"'>
+      <a href="/blog/?search=%22tag:%20website-example%22" class="tag" data-search-tag="website-example" data-tooltip='Show items with the tag "website-example"'>
         website-example
       </a>
     
@@ -754,6 +779,11 @@
 
 
 
+
+
+
+
+
   <div class="button-wrapper">
     <a class="button" href="https://github.com/THU-HU-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
@@ -774,7 +804,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Toggle dark mode" aria-label="Toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

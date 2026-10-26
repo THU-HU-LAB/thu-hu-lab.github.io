@@ -100,6 +100,32 @@ nav > a:hover {
   color: var(--primary);
 }
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+  padding-left: 16px;
+  border-left: 1px solid currentColor;
+  font-size: 0.9em;
+  text-transform: none;
+}
+
+.language-switcher [aria-current] {
+  font-weight: var(--semi-bold);
+}
+
+.language-switcher a:hover {
+  color: var(--primary);
+}
+
+.translation-notice {
+  margin: 20px auto;
+  padding: 12px 20px;
+  max-width: 1000px;
+  text-align: center;
+}
+
 @media (max-width: 700px) {
   header:not([data-big]) {
     justify-content: flex-end;
